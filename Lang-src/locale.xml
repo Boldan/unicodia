@@ -18,23 +18,95 @@
 		<alp>____________________Ü_____</alp>
 		<alp>____________________ü_____</alp>
 	</alpha-sort>
-	<alpha-fixup />
+	<alpha-fixup>
 	<!-- For discoverability some auxiliary blocks are placed next to “parent” ones,
 		 breaking alphabet order and referenceability.
 		 These blocks are marked with ellipsis. -->
+		 <blk start="02B0" target="占位修饰符号" /><!-- 间距修饰符 -->
+		<blk start="0300" target="组合附加符号" /><!-- 基础变音符号 -->
+		<blk start="1800" target="古代蒙古文字" /><!-- 蒙古文 -->
+		<blk start="1980" target="新泰卢字母（芬兰语）" /><!-- 泰卢字母 -->
+		<blk start="1D00" target="声音记号扩展" /><!-- 音标扩展 -->
+		<blk start="1D80" target="声音记号扩展补充" /><!-- 音标扩展补充 -->
+		<blk start="2000" target="一般性的标点" /><!-- 标点符号 -->
+		<blk start="2070" target="上标字符与下标字符" /><!-- 上标和下标形式 -->
+		<blk start="20A0" target="通用货币符号" /><!-- 货币符号 -->
+		<blk start="2100" target="字符样式符号" /><!-- 字母样式符号 -->
+		<blk start="2150" target="数字形式" /><!-- 数字形式 -->
+		<blk start="2190" target="箭头" /><!-- 箭头，其余会自动拉取 -->
+		<blk start="2200" target="数学符号" /><!-- 数学符号，其余会自动拉取 -->
+		<blk start="2300" target="工程技术用符号及其他" /><!-- 杂项技术符号 -->
+		<blk start="2400" target="控制功能用符号" /><!-- 控制图形 -->
+		<blk start="2440" target="光学识别字符" /><!-- 光学字符识别 -->
+		<blk start="2460" target="圈入英数字" /><!-- 圆括英数字符 -->
+		<blk start="25A0" target="几何图形" /><!-- 几何图形，其他也会自动拉取 -->
+		<blk start="2700" target="装饰性符号" /><!-- 装饰符号；新的dingbats将自动拉取，省略号不需要 -->
+		<blk start="2800" target="点字图案" /><!-- 盲文 -->
+		<blk start="2F00" target="康熙部首" /><!-- 康熙部首，第二个也将自动拉取 -->
+		<blk start="2FF0" target="汉字结构解析符号" /><!-- 汉字结构描述符号 -->
+		<blk start="3000" target="CJK符号与标点" /><!-- CJK符号和标点 -->
+		<blk start="3100" target="注音符号（台湾俗称：注音符号）" /><!-- 注音符号 -->
+		<blk start="3190" target="汉文训读用符号" /><!-- 日文训读符号 -->
+		<!-- 31C0 可能没问题因为它以平假名结尾 -->
+		<blk start="3200" target="圈入CJK字符・月份" /><!-- 圈入CJK字符/月份 -->
+		<blk start="3300" target="CJK表意符号" /><!-- CJK表意符号如公寓等 -->
+		<blk start="4DC0" target="易经符号" /><!-- 易经符号 -->
+		<blk start="4E00" target="CJK统一表意文字" /><!-- CJK统一表意文字 -->
+		<blk start="A700" target="声调修饰字符" /><!-- 小型声调符号 -->
+		<blk start="FE00" target="字体选择符" /><!-- 字体选择器 -->
+		<blk start="FE10" target="直书格式" /><!-- 竖排格式 -->
+		<blk start="FE20" target="半符号（合成可能）" /><!-- 半符号（可以组合） -->
+		<blk start="FE30" target="CJK兼容格式" /><!-- CJK兼容格式 -->
+		<blk start="FE50" target="小型字体" /><!-- 小型变体 -->
+		<blk start="FF00" target="半角・全角格式" /><!-- 半角/全角格式 -->
+		<blk start="FFF0" target="特殊用途字符" /><!-- 特殊用途字符 -->
+		<blk start="10000" target="古埃及文字B 音节文字" /><!-- 林布字母 -->
+		<blk start="10190" target="古代符号" /><!-- 古代符号 -->
+		<blk start="103A0" target="古波斯文字" /><!-- 古波斯字母 -->
+		<blk start="10600" target="古埃及文字A" /><!-- 林纳字母 -->
+		<blk start="10840" target="古代阿拉姆文字" /><!-- 古阿拉姆字母 -->
+		<blk start="10A60" target="南阿拉伯古文字" /><!-- 古南部阿拉伯字母 -->
+		<blk start="10A80" target="北阿拉伯古文字" /><!-- 古北部阿拉伯字母 -->
+		<blk start="10B40" target="分部帕提亚文字" /><!-- 分部帕提亚字母 -->
+		<blk start="10B60" target="分部帕拉维文字" /><!-- 分部帕拉维字母 -->
+		<blk start="10B80" target="碑铭帕拉维文字" /><!-- 碑铭帕拉维字母 -->
+		<blk start="10C00" target="文字（保护-基因丝）（鲁恩文）" /><!-- 古代突厥字母 -->
+		<blk start="11580" target="悉昙文字（梵字）" /><!-- 悉昙字母 -->
+		<blk start="16FE0" target="汉字的符号以及标点" /><!-- 表意符号 -->
+		<blk start="17000" target="西夏文字" /><!-- 西夏文字 -->
+		<blk start="18B00" target="契丹小字" /><!-- 契丹小字 -->
+		<blk start="1B170" target="女书" /><!-- 女书 -->
+		<blk start="1D100" target="音乐符号" /><!-- 音乐符号 -->
+		<blk start="1D300" target="伏羲卦经符号" /><!-- 太玄卦经符号 -->
+		<blk start="1D360" target="算筹数字" /><!-- 算筹数字 -->
+		<blk start="1F100" target="圈入英数字细体" /><!-- 圈入英数字细体 -->
+		<blk start="1F200" target="圈入表意文字细体" /><!-- 圈入表意文字细体 -->
+		<blk start="1F600" target="表情符号" /><!-- 表情符号 -->
+		<blk start="1F680" target="交通及地图符号" /><!-- 交通和地图符号 -->
+		<blk start="1F700" target="炼金术符号" /><!-- 炼金术符号 -->
+		<blk start="1FB00" target="乐器计算机用符号" /><!-- 传统电脑用符号 -->
+	</alpha-fixup>
 	<ellipsis text="…">
+		<blk start="1AB0"  /><!-- umlauts supp. It’s the 3rd in cluster; 2 and 4 do not need -->
+		<blk start="2E00"  /><!-- supp punctuation -->
 		<blk start="2E80"  /><!-- CJK radicals supplement -->
+		<blk start="30A0"  /><!-- Katakana -->
+		<blk start="31F0"  /><!-- Katakana phonetic -->
 		<blk start="10100" /><!-- Aegean numbers -->
 		<blk start="10140" /><!-- Ancient Greek numbers -->
 		<blk start="10F00" /><!-- Old Sogdian -->
+		<blk start="11B60" /><!-- Sharada supp, until localized -->
 		<blk start="12480" /><!-- Early dynastic cuneiform -->
+		<blk start="18D80" /><!-- Tangut components supp, until localized -->
 		<blk start="1AFF0" /><!-- Kana extended-B -->
 		<blk start="1B000" /><!-- Kana supplement -->
 		<blk start="1B100" /><!-- Kana extended-A -->
 		<blk start="1B130" /><!-- Small kana extension -->
 		<blk start="1BCA0" /><!-- Shorthand format controls -->
+		<blk start="1CEC0" /><!-- sym misc supp, until localized -->
 		<blk start="1D200" /><!-- Ancient Greek music notation -->
-		<blk start="1F650" /><!-- Ornamental dingbats -->
+		<blk start="1F900" /><!-- Sym ex -->
+		<blk start="1FA70" /><!-- Sym ex A -->
 	</ellipsis>
 	<!-- You can make any wiki templates (w/o params) you want. Maybe you’d like to enclose them in CDATA. -->
 	<wiki-templates>
@@ -51,4 +123,6 @@
 			still-uses-burmese: uses pair Myanmar/Burmese
 				(writes location of Myanmar for Burmese script) -->
 	<peculiarities still-uses-burmese="0" />
+	<punctuation key-value-colon="： " uniform-comma="、" semicolon="；"
+			left-paren="（" right-paren="）" indent-ellip="…" />
 </locale>
