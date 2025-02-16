@@ -1,36 +1,492 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <locale native="汉语" international="Chinese" eng-terms="1" trigger-stamp="2025213">
 	<trigger-langs>
 		<lang iso="cn" />
 	</trigger-langs>
+	<!-- Alphabetical sorting, right now very simple and locale-independent
+		 non-meaning stub of alphabet = underscore _
+		 Limitations:
+		 • Difference within first 40 MEANING chars of term/block, otherwise they are deemed equal
+		 • Strings that differ with “equal” character only are forbidden:
+		    äbb < abc < äbd is supported, but abc < äbc isn’t.
+		 • 32-bit chars ALLOWED
+		 • Max alphabet 32K
+		 • # if alphabets unlimited -->
 	<alpha-sort>
 		<alp>ABCDEFGHIJKLMNOPQRSTUVWXYZ</alp>
 		<alp>abcdefghijklmnopqrstuvwxyz</alp>
 		<alp>____________________Ü_____</alp>
 		<alp>____________________ü_____</alp>
 	</alpha-sort>
-	<alpha-fixup />
+	<alpha-fixup>
+	<!-- For discoverability some auxiliary blocks are placed next to “parent” ones,
+		 breaking alphabet order and referenceability.
+		 These blocks are marked with ellipsis. -->
+		<blk start="0000" />	<!--基本拉丁字母-->
+		<blk start="0080" />	<!--拉丁字母补充-1-->
+		<blk start="0100" />	<!--拉丁字母扩充-A-->
+		<blk start="0180" />	<!--拉丁字母扩充-B-->
+		<blk start="0250" />	<!--国际音标扩充-->
+		<blk start="02B0" />	<!--间距修饰字符-->
+		<blk start="0300" />	<!--组合音标附加符号-->
+		<blk start="0370" />	<!--希腊字母-->
+		<blk start="0400" />	<!--西里尔字母-->
+		<blk start="0500" />	<!--西里尔字母补充-->
+		<blk start="0530" />	<!--亚美尼亚文-->
+		<blk start="0590" />	<!--希伯来文-->
+		<blk start="0600" />	<!--基本阿拉伯文-->
+		<blk start="0700" />	<!--叙利亚文-->
+		<blk start="0750" />	<!--阿拉伯文补充-->
+		<blk start="0780" />	<!--塔纳文-->
+		<blk start="07C0" />	<!--N’Ko字母（西非曼德语族文字）-->
+		<blk start="0900" />	<!--天城体梵文字母-->
+		<blk start="0980" />	<!--孟加拉文-->
+		<blk start="0A00" />	<!--古尔穆基文-->
+		<blk start="0A80" />	<!--古吉拉特文-->
+		<blk start="0B00" />	<!--奥里亚文-->
+		<blk start="0B80" />	<!--泰米尔文-->
+		<blk start="0C00" />	<!--泰卢固文-->
+		<blk start="0C80" />	<!--卡纳达文-->
+		<blk start="0D00" />	<!--马拉亚拉姆文-->
+		<blk start="0D80" />	<!--僧伽罗文-->
+		<blk start="0E00" />	<!--泰文-->
+		<blk start="0E80" />	<!--老挝文；寮文-->
+		<blk start="0F00" />	<!--藏文-->
+		<blk start="1000" />	<!--缅甸文-->
+		<blk start="10A0" />	<!--格鲁吉亚文-->
+		<blk start="1100" />	<!--谚文字母-->
+		<blk start="1200" />	<!--埃塞俄比亚文-->
+		<blk start="1380" />	<!--埃塞俄比亚文补充-->
+		<blk start="13A0" />	<!--切罗基文-->
+		<blk start="1400" />	<!--加拿大土着统一音节文字-->
+		<blk start="1680" />	<!--欧甘文-->
+		<blk start="16A0" />	<!--北欧古文-->
+		<blk start="1700" />	<!--他加禄文-->
+		<blk start="1720" />	<!--哈努诺文-->
+		<blk start="1740" />	<!--布希德文-->
+		<blk start="1760" />	<!--塔格巴努亚文-->
+		<blk start="1780" />	<!--高棉文-->
+		<blk start="1800" />	<!--蒙古文-->
+		<blk start="1900" />	<!--林布文-->
+		<blk start="1950" />	<!--傣哪文；德宏傣文-->
+		<blk start="1980" />	<!--新傣仂文-->
+		<blk start="19E0" />	<!--高棉符号-->
+		<blk start="1A00" />	<!--布吉文-->
+		<blk start="1B00" />	<!--巴厘文-->
+		<blk start="1D00" />	<!--音标扩充-->
+		<blk start="1D80" />	<!--音标扩充补充-->
+		<blk start="1DC0" />	<!--组合音标附加符号-->
+		<blk start="1E00" />	<!--拉丁字母扩充附加-->
+		<blk start="1F00" />	<!--希腊文扩充-->
+		<blk start="2000" />	<!--一般标点符号-->
+		<blk start="2070" />	<!--下标及上标-->
+		<blk start="20A0" />	<!--货币符号-->
+		<blk start="20D0" />	<!--符号用组合附加符号-->
+		<blk start="2100" />	<!--似字母符号-->
+		<blk start="2150" />	<!--数字形式-->
+		<blk start="2190" />	<!--箭头符号-->
+		<blk start="2200" />	<!--数学运算符号-->
+		<blk start="2300" />	<!--混合专门符号；零杂技术符号-->
+		<blk start="2400" />	<!--控制图像-->
+		<blk start="2440" />	<!--光学字元识别-->
+		<blk start="2460" />	<!--圈型字母数字-->
+		<blk start="2500" />	<!--制表符-->
+		<blk start="2580" />	<!--区块元件-->
+		<blk start="25A0" />	<!--几何形状-->
+		<blk start="2600" />	<!--混合什锦符号；零杂符号-->
+		<blk start="2700" />	<!--什锦符号-->
+		<blk start="27C0" />	<!--混合数学符号-A；零杂数学符号-A-->
+		<blk start="27F0" />	<!--补充性箭头符号-A-->
+		<blk start="2800" />	<!--盲文；盲人点字-->
+		<blk start="2900" />	<!--补充性箭头符号-B-->
+		<blk start="2980" />	<!--混合数学符号-B；零杂数学符号-B-->
+		<blk start="2A00" />	<!--补充性数学运算符号-->
+		<blk start="2B00" />	<!--混合什锦符号和箭头符号；零杂符号与箭头-->
+		<blk start="2C00" />	<!--格拉哥尔字母-->
+		<blk start="2C60" />	<!--拉丁字母扩充-C-->
+		<blk start="2C80" />	<!--科普特文-->
+		<blk start="2D00" />	<!--格鲁吉亚文补充-->
+		<blk start="2D30" />	<!--提非纳格字母-->
+		<blk start="2D80" />	<!--埃塞俄比亚文扩充-->
+		<blk start="2E00" />	<!--补充性标点符号-->
+		<blk start="2E80" />	<!--中日韩部首补充-->
+		<blk start="2F00" />	<!--康熙部首-->
+		<blk start="2FF0" />	<!--汉字结构描述字符-->
+		<blk start="3000" />	<!--中日韩符号和标点-->
+		<blk start="3040" />	<!--平假名-->
+		<blk start="30A0" />	<!--片假名-->
+		<blk start="3100" />	<!--注音符号-->
+		<blk start="3130" />	<!--谚文相容字母-->
+		<blk start="3190" />	<!--汉文标注号-->
+		<blk start="31A0" />	<!--注音符号扩充-->
+		<blk start="31C0" />	<!--中日韩笔画部件-->
+		<blk start="31F0" />	<!--片假名音标扩充-->
+		<blk start="3200" />	<!--括号中日韩字母及月份；圈型中日韩字母及月份-->
+		<blk start="3300" />	<!--中日韩相容字元-->
+		<blk start="3400" />	<!--中日韩统一表意文字扩充A-->
+		<blk start="4DC0" />	<!--易经六十四卦象-->
+		<blk start="4E00" />	<!--中日韩统一表意文字-->
+		<blk start="A000" />	<!--彝文音节-->
+		<blk start="A490" />	<!--彝文字母-->
+		<blk start="A700" />	<!--声调符号-->
+		<blk start="A720" />	<!--拉丁字母扩充-D-->
+		<blk start="A800" />	<!--塞洛提纳格瑞文-->
+		<blk start="A840" />	<!--八思巴字母-->
+		<blk start="AC00" />	<!--谚文音节-->
+		<blk start="D800" />	<!--高半代用区-->
+		<blk start="DB80" />	<!--高半专用代用区-->
+		<blk start="DC00" />	<!--低半代用区-->
+		<blk start="E000" />	<!--专用区-->
+		<blk start="F900" />	<!--中日韩相容表意文字-->
+		<blk start="FB00" />	<!--字母变体显现形式-->
+		<blk start="FB50" />	<!--阿拉伯文变体显现形式-A-->
+		<blk start="FE00" />	<!--字型变换选取器-->
+		<blk start="FE10" />	<!--竖式标点-->
+		<blk start="FE20" />	<!--组合半形标示-->
+		<blk start="FE30" />	<!--中日韩相容形式-->
+		<blk start="FE50" />	<!--小写变体-->
+		<blk start="FE70" />	<!--阿拉伯文变体显现形式-B-->
+		<blk start="FF00" />	<!--半形及全形字符-->
+		<blk start="FFF0" />	<!--特殊区域-->
+		<blk start="10000" />	<!--线形文字B音节文字-->
+		<blk start="10080" />	<!--线形文字B表意文字-->
+		<blk start="10100" />	<!--爱琴数字-->
+		<blk start="10140" />	<!--古希腊数字-->
+		<blk start="10300" />	<!--古意大利文-->
+		<blk start="10330" />	<!--哥特文-->
+		<blk start="10380" />	<!--乌加里特楔形文字-->
+		<blk start="103A0" />    <!--古波斯文-->
+		<blk start="10400" />	<!--犹他大学音标-->
+		<blk start="10450" />	<!--肃伯纳字母-->
+		<blk start="10480" />	<!--奥斯曼亚字母-->
+		<blk start="10800" />	<!--塞浦路斯音节文字-->
+		<blk start="10900" />	<!--腓尼基字母-->
+		<blk start="10A00" />	<!--佉卢字母-->
+		<blk start="12000" />	<!--楔形文字-->
+		<blk start="12400" />	<!--楔形文字数字及标点-->
+		<blk start="1D000" />	<!--东正教音乐符号-->
+		<blk start="1D100" />	<!--音乐符号-->
+		<blk start="1D200" />	<!--古希腊音乐谱记号-->
+		<blk start="1D300" />	<!--太玄经符号-->
+		<blk start="1D360" />	<!--算筹记数式-->
+		<blk start="1D400" />	<!--数学用字母数字符号-->
+		<blk start="20000" />	<!--中日韩统一表意文字扩充B-->
+		<blk start="2F800" />	<!--中日韩相容表意文字补充-->
+		<blk start="E0000" />	<!--语言编码标签-->
+		<blk start="E0100" />	<!--字型变换选取器补充-->
+		<blk start="FFF80" />	<!--补充专用区-A-->
+		<blk start="10FF80" />	<!--补充专用区-B-->
+		
+		<!--<blk start="0000" end="007F"/>	<!--基本拉丁字母-->
+		<!--<blk start="0080" end="00FF"/>	<!--拉丁字母补充-1-->
+		<!--<blk start="0100" end="017F"/>	<!--拉丁字母扩充-A-->
+		<!--<blk start="0180" end="024F"/>	<!--拉丁字母扩充-B-->
+		<!--<blk start="0250" end="02AF"/>	<!--国际音标扩充-->
+		<!--<blk start="02B0" end="02FF"/>	<!--间距修饰字符-->
+		<!--<blk start="0300" end="036F"/>	<!--组合音标附加符号-->
+		<!--<blk start="0370" end="03FF"/>	<!--希腊字母-->
+		<!--<blk start="0400" end="04FF"/>	<!--西里尔字母-->
+		<!--<blk start="0500" end="052F"/>	<!--西里尔字母补充-->
+		<!--<blk start="0530" end="058F"/>	<!--亚美尼亚文-->
+		<!--<blk start="0590" end="05FF"/>	<!--希伯来文-->
+		<!--<blk start="0600" end="06FF"/>	<!--基本阿拉伯文-->
+		<!--<blk start="0700" end="074F"/>	<!--叙利亚文-->
+		<!--<blk start="0750" end="077F"/>	<!--阿拉伯文补充-->
+		<!--<blk start="0780" end="07BF"/>	<!--塔纳文-->
+		<!--<blk start="07C0" end="07FF"/>	<!--N’Ko字母（西非曼德语族文字）-->
+		<!--<blk start="0900" end="097F"/>	<!--天城体梵文字母-->
+		<!--<blk start="0980" end="09FF"/>	<!--孟加拉文-->
+		<!--<blk start="0A00" end="0A7F"/>	<!--古尔穆基文-->
+		<!--<blk start="0A80" end="0AFF"/>	<!--古吉拉特文-->
+		<!--<blk start="0B00" end="0B7F"/>	<!--奥里亚文-->
+		<!--<blk start="0B80" end="0BFF"/>	<!--泰米尔文-->
+		<!--<blk start="0C00" end="0C7F"/>	<!--泰卢固文-->
+		<!--<blk start="0C80" end="0CFF"/>	<!--卡纳达文-->
+		<!--<blk start="0D00" end="0D7F"/>	<!--马拉亚拉姆文-->
+		<!--<blk start="0D80" end="0DFF"/>	<!--僧伽罗文-->
+		<!--<blk start="0E00" end="0E7F"/>	<!--泰文-->
+		<!--<blk start="0E80" end="0EFF"/>	<!--老挝文；寮文-->
+		<!--<blk start="0F00" end="0FFF"/>	<!--藏文-->
+		<!--<blk start="1000" end="109F"/>	<!--缅甸文-->
+		<!--<blk start="10A0" end="10FF"/>	<!--格鲁吉亚文-->
+		<!--<blk start="1100" end="11FF"/>	<!--谚文字母-->
+		<!--<blk start="1200" end="137F"/>	<!--埃塞俄比亚文-->
+		<!--<blk start="1380" end="139F"/>	<!--埃塞俄比亚文补充-->
+		<!--<blk start="13A0" end="13FF"/>	<!--切罗基文-->
+		<!--<blk start="1400" end="167F"/>	<!--加拿大土着统一音节文字-->
+		<!--<blk start="1680" end="169F"/>	<!--欧甘文-->
+		<!--<blk start="16A0" end="16FF"/>	<!--北欧古文-->
+		<!--<blk start="1700" end="171F"/>	<!--他加禄文-->
+		<!--<blk start="1720" end="173F"/>	<!--哈努诺文-->
+		<!--<blk start="1740" end="175F"/>	<!--布希德文-->
+		<!--<blk start="1760" end="177F"/>	<!--塔格巴努亚文-->
+		<!--<blk start="1780" end="17FF"/>	<!--高棉文-->
+		<!--<blk start="1800" end="18AF"/>	<!--蒙古文-->
+		<!--<blk start="1900" end="194F"/>	<!--林布文-->
+		<!--<blk start="1950" end="197F"/>	<!--傣哪文；德宏傣文-->
+		<!--<blk start="1980" end="19DF"/>	<!--新傣仂文-->
+		<!--<blk start="19E0" end="19FF"/>	<!--高棉符号-->
+		<!--<blk start="1A00" end="1A1F"/>	<!--布吉文-->
+		<!--<blk start="1B00" end="1B7F"/>	<!--巴厘文-->
+		<!--<blk start="1D00" end="1D7F"/>	<!--音标扩充-->
+		<!--<blk start="1D80" end="1DBF"/>	<!--音标扩充补充-->
+		<!--<blk start="1DC0" end="1DFF"/>	<!--组合音标附加符号-->
+		<!--<blk start="1E00" end="1EFF"/>	<!--拉丁字母扩充附加-->
+		<!--<blk start="1F00" end="1FFF"/>	<!--希腊文扩充-->
+		<!--<blk start="2000" end="206F"/>	<!--一般标点符号-->
+		<!--<blk start="2070" end="209F"/>	<!--下标及上标-->
+		<!--<blk start="20A0" end="20CF"/>	<!--货币符号-->
+		<!--<blk start="20D0" end="20FF"/>	<!--符号用组合附加符号-->
+		<!--<blk start="2100" end="214F"/>	<!--似字母符号-->
+		<!--<blk start="2150" end="218F"/>	<!--数字形式-->
+		<!--<blk start="2190" end="21FF"/>	<!--箭头符号-->
+		<!--<blk start="2200" end="22FF"/>	<!--数学运算符号-->
+		<!--<blk start="2300" end="23FF"/>	<!--混合专门符号；零杂技术符号-->
+		<!--<blk start="2400" end="243F"/>	<!--控制图像-->
+		<!--<blk start="2440" end="245F"/>	<!--光学字元识别-->
+		<!--<blk start="2460" end="24FF"/>	<!--圈型字母数字-->
+		<!--<blk start="2500" end="257F"/>	<!--制表符-->
+		<!--<blk start="2580" end="259F"/>	<!--区块元件-->
+		<!--<blk start="25A0" end="25FF"/>	<!--几何形状-->
+		<!--<blk start="2600" end="26FF"/>	<!--混合什锦符号；零杂符号-->
+		<!--<blk start="2700" end="27BF"/>	<!--什锦符号-->
+		<!--<blk start="27C0" end="27EF"/>	<!--混合数学符号-A；零杂数学符号-A-->
+		<!--<blk start="27F0" end="27FF"/>	<!--补充性箭头符号-A-->
+		<!--<blk start="2800" end="28FF"/>	<!--盲文；盲人点字-->
+		<!--<blk start="2900" end="297F"/>	<!--补充性箭头符号-B-->
+		<!--<blk start="2980" end="29FF"/>	<!--混合数学符号-B；零杂数学符号-B-->
+		<!--<blk start="2A00" end="2AFF"/>	<!--补充性数学运算符号-->
+		<!--<blk start="2B00" end="2BFF"/>	<!--混合什锦符号和箭头符号；零杂符号与箭头-->
+		<!--<blk start="2C00" end="2C5F"/>	<!--格拉哥尔字母-->
+		<!--<blk start="2C60" end="2C7F"/>	<!--拉丁字母扩充-C-->
+		<!--<blk start="2C80" end="2CFF"/>	<!--科普特文-->
+		<!--<blk start="2D00" end="2D2F"/>	<!--格鲁吉亚文补充-->
+		<!--<blk start="2D30" end="2D7F"/>	<!--提非纳格字母-->
+		<!--<blk start="2D80" end="2DDF"/>	<!--埃塞俄比亚文扩充-->
+		<!--<blk start="2E00" end="2E7F"/>	<!--补充性标点符号-->
+		<!--<blk start="2E80" end="2EFF"/>	<!--中日韩部首补充-->
+		<!--<blk start="2F00" end="2FDF"/>	<!--康熙部首-->
+		<!--<blk start="2FF0" end="2FFF"/>	<!--汉字结构描述字符-->
+		<!--<blk start="3000" end="303F"/>	<!--中日韩符号和标点-->
+		<!--<blk start="3040" end="309F"/>	<!--平假名-->
+		<!--<blk start="30A0" end="30FF"/>	<!--片假名-->
+		<!--<blk start="3100" end="312F"/>	<!--注音符号-->
+		<!--<blk start="3130" end="318F"/>	<!--谚文相容字母-->
+		<!--<blk start="3190" end="319F"/>	<!--汉文标注号-->
+		<!--<blk start="31A0" end="31BF"/>	<!--注音符号扩充-->
+		<!--<blk start="31C0" end="31EF"/>	<!--中日韩笔画部件-->
+		<!--<blk start="31F0" end="31FF"/>	<!--片假名音标扩充-->
+		<!--<blk start="3200" end="32FF"/>	<!--括号中日韩字母及月份；圈型中日韩字母及月份-->
+		<!--<blk start="3300" end="33FF"/>	<!--中日韩相容字元-->
+		<!--<blk start="3400" end="4DBF"/>	<!--中日韩统一表意文字扩充A-->
+		<!--<blk start="4DC0" end="4DFF"/>	<!--易经六十四卦象-->
+		<!--<blk start="4E00" end="9FFF"/>	<!--中日韩统一表意文字-->
+		<!--<blk start="A000" end="A48F"/>	<!--彝文音节-->
+		<!--<blk start="A490" end="A4CF"/>	<!--彝文字母-->
+		<!--<blk start="A700" end="A71F"/>	<!--声调符号-->
+		<!--<blk start="A720" end="A7FF"/>	<!--拉丁字母扩充-D-->
+		<!--<blk start="A800" end="A82F"/>	<!--塞洛提纳格瑞文-->
+		<!--<blk start="A840" end="A87F"/>	<!--八思巴字母-->
+		<!--<blk start="AC00" end="D7AF"/>	<!--谚文音节-->
+		<!--<blk start="D800" end="DB7F"/>	<!--高半代用区-->
+		<!--<blk start="DB80" end="DBFF"/>	<!--高半专用代用区-->
+		<!--<blk start="DC00" end="DFFF"/>	<!--低半代用区-->
+		<!--<blk start="E000" end="F8FF"/>	<!--专用区-->
+		<!--<blk start="F900" end="FAFF"/>	<!--中日韩相容表意文字-->
+		<!--<blk start="FB00" end="FB4F"/>	<!--字母变体显现形式-->
+		<!--<blk start="FB50" end="FDFF"/>	<!--阿拉伯文变体显现形式-A-->
+		<!--<blk start="FE00" end="FE0F"/>	<!--字型变换选取器-->
+		<!--<blk start="FE10" end="FE1F"/>	<!--竖式标点-->
+		<!--<blk start="FE20" end="FE2F"/>	<!--组合半形标示-->
+		<!--<blk start="FE30" end="FE4F"/>	<!--中日韩相容形式-->
+		<!--<blk start="FE50" end="FE6F"/>	<!--小写变体-->
+		<!--<blk start="FE70" end="FEFF"/>	<!--阿拉伯文变体显现形式-B-->
+		<!--<blk start="FF00" end="FFEF"/>	<!--半形及全形字符-->
+		<!--<blk start="FFF0" end="FFFF"/>	<!--特殊区域-->
+		<!--<blk start="10000" end="1007F"/>	<!--线形文字B音节文字-->
+		<!--<blk start="10080" end="100FF"/>	<!--线形文字B表意文字-->
+		<!--<blk start="10100" end="1013F"/>	<!--爱琴数字-->
+		<!--<blk start="10140" end="1018F"/>	<!--古希腊数字-->
+		<!--<blk start="10300" end="1032F"/>	<!--古意大利文-->
+		<!--<blk start="10330" end="1034F"/>	<!--哥特文-->
+		<!--<blk start="10380" end="1039F"/>	<!--乌加里特楔形文字-->
+		<!--<blk start="103A0" end="103DF"/><!--古波斯文-->
+		<!--<blk start="10400" end="1044F"/>	<!--犹他大学音标-->
+		<!--<blk start="10450" end="1047F"/>	<!--肃伯纳字母-->
+		<!--<blk start="10480" end="104AF"/>	<!--奥斯曼亚字母-->
+		<!--<blk start="10800" end="1083F"/>	<!--塞浦路斯音节文字-->
+		<!--<blk start="10900" end="1091F"/>	<!--腓尼基字母-->
+		<!--<blk start="10A00" end="10A5F"/><!--佉卢字母-->
+		<!--<blk start="12000" end="123FF"/>	<!--楔形文字-->
+		<!--<blk start="12400" end="1247F"/>	<!--楔形文字数字及标点-->
+		<!--<blk start="1D000" end="1D0FF"/><!--东正教音乐符号-->
+		<!--<blk start="1D100" end="1D1FF"/><!--音乐符号-->
+		<!--<blk start="1D200" end="1D24F"/><!--古希腊音乐谱记号-->
+		<!--<blk start="1D300" end="1D35F"/><!--太玄经符号-->
+		<!--<blk start="1D360" end="1D37F"/><!--算筹记数式-->
+		<!--<blk start="1D400" end="1D7FF"/><!--数学用字母数字符号-->
+		<!--<blk start="20000" end="2A6DF"/><!--中日韩统一表意文字扩充B-->
+		<!--<blk start="2F800" end="2FA1F"/>	<!--中日韩相容表意文字补充-->
+		<!--<blk start="E0000" end="E007F"/>	<!--语言编码标签-->
+		<!--<blk start="E0100" end="E01EF"/>	<!--字型变换选取器补充-->
+		<!--<blk start="FFF80" end="FFFFF"/>	<!--补充专用区-A-->
+		<!--<blk start="10FF80" end="10FFFF"/><!--补充专用区-B-->
+	</alpha-fixup>
 	<ellipsis text="…">
-		<blk start="1AB0"  /><!-- umlauts supp. It’s the 3rd in cluster; 2 and 4 do not need -->
-		<blk start="2E00"  /><!-- supp punctuation -->
-		<blk start="2E80"  /><!-- CJK radicals supplement -->
-		<blk start="30A0"  /><!-- Katakana -->
-		<blk start="31F0"  /><!-- Katakana phonetic -->
-		<blk start="10100" /><!-- Aegean numbers -->
-		<blk start="10140" /><!-- Ancient Greek numbers -->
-		<blk start="10F00" /><!-- Old Sogdian -->
-		<blk start="11B60" /><!-- Sharada supp, until localized -->
-		<blk start="12480" /><!-- Early dynastic cuneiform -->
-		<blk start="18D80" /><!-- Tangut components supp, until localized -->
-		<blk start="1AFF0" /><!-- Kana extended-B -->
-		<blk start="1B000" /><!-- Kana supplement -->
-		<blk start="1B100" /><!-- Kana extended-A -->
-		<blk start="1B130" /><!-- Small kana extension -->
-		<blk start="1BCA0" /><!-- Shorthand format controls -->
-		<blk start="1CEC0" /><!-- sym misc supp, until localized -->
-		<blk start="1D200" /><!-- Ancient Greek music notation -->
-		<blk start="1F900" /><!-- Sym ex -->
-		<blk start="1FA70" /><!-- Sym ex A -->
+		<blk start="0000" />	<!--Basic Latin-->
+		<blk start="0080" />	<!--Latin-1 Supplement-->
+		<blk start="0100" />	<!--Latin Extended-A-->
+		<blk start="0180" />	<!--Latin Extended-B-->
+		<blk start="0250" />	<!--IPA Extensions-->
+		<blk start="02B0" />	<!--Spacing Modifier Letters-->
+		<blk start="0300" />	<!--Combining Diacritical Marks-->
+		<blk start="0370" />	<!--Greek and Coptic-->
+		<blk start="0400" />	<!--Cyrillic-->
+		<blk start="0500" />	<!--Cyrillic Supplement-->
+		<blk start="0530" />	<!--Armenian-->
+		<blk start="0590" />	<!--Hebrew-->
+		<blk start="0600" />	<!--Arabic-->
+		<blk start="0700" />	<!--Syriac-->
+		<blk start="0750" />	<!--Arabic Supplement-->
+		<blk start="0780" />	<!--Thaana-->
+		<blk start="07C0" />	<!--N'Ko-->
+		<blk start="0900" />	<!--Devanagari-->
+		<blk start="0980" />	<!--Bengali-->
+		<blk start="0A00" />	<!--Gurmukhi-->
+		<blk start="0A80" />	<!--Gujarati-->
+		<blk start="0B00" />	<!--Oriya-->
+		<blk start="0B80" />	<!--Tamil-->
+		<blk start="0C00" />	<!--Telugu-->
+		<blk start="0C80" />	<!--Kannada-->
+		<blk start="0D00" />	<!--Malayalam-->
+		<blk start="0D80" />	<!--Sinhala-->
+		<blk start="0E00" />	<!--Thai-->
+		<blk start="0E80" />	<!--Lao-->
+		<blk start="0F00" />	<!--Tibetan-->
+		<blk start="1000" />	<!--Myanmar-->
+		<blk start="10A0" />	<!--Georgian-->
+		<blk start="1100" />	<!--Hangul Jamo-->
+		<blk start="1200" />	<!--Ethiopic-->
+		<blk start="1380" />	<!--Ethiopic Supplement-->
+		<blk start="13A0" />	<!--Cherokee-->
+		<blk start="1400" />	<!--Unified Canadian Aboriginal Syllabics-->
+		<blk start="1680" />	<!--Ogham-->
+		<blk start="16A0" />	<!--Runic-->
+		<blk start="1700" />	<!--Tagalog-->
+		<blk start="1720" />	<!--Hanunoo-->
+		<blk start="1740" />	<!--Buhid-->
+		<blk start="1760" />	<!--Tagbanwa-->
+		<blk start="1780" />	<!--Khmer-->
+		<blk start="1800" />	<!--Mongolian-->
+		<blk start="1900" />	<!--Limbu-->
+		<blk start="1950" />	<!--Tai Le-->
+		<blk start="1980" />	<!--New Tai Lue-->
+		<blk start="19E0" />	<!--Khmer Symbols-->
+		<blk start="1A00" />	<!--Buginese-->
+		<blk start="1B00" />	<!--Balinese-->
+		<blk start="1D00" />	<!--Phonetic Extensions-->
+		<blk start="1D80" />	<!--Phonetic Extensions Supplement-->
+		<blk start="1DC0" />	<!--Combining Diacritical Marks Supplement-->
+		<blk start="1E00" />	<!--Latin Extended Additional-->
+		<blk start="1F00" />	<!--Greek Extended-->
+		<blk start="2000" />	<!--General Punctuation-->
+		<blk start="2070" />	<!--Superscripts and Subscripts-->
+		<blk start="20A0" />	<!--Currency Symbols-->
+		<blk start="20D0" />	<!--Combining Diacritical Marks for Symbols-->
+		<blk start="2100" />	<!--Letterlike Symbols-->
+		<blk start="2150" />	<!--Number Forms-->
+		<blk start="2190" />	<!--Arrows-->
+		<blk start="2200" />	<!--Mathematical Operators-->
+		<blk start="2300" />	<!--Miscellaneous Technical-->
+		<blk start="2400" />	<!--Control Pictures-->
+		<blk start="2440" />	<!--Optical Character Recognition-->
+		<blk start="2460" />	<!--Enclosed Alphanumerics-->
+		<blk start="2500" />	<!--Box Drawing-->
+		<blk start="2580" />	<!--Block Elements-->
+		<blk start="25A0" />	<!--Geometric Shapes-->
+		<blk start="2600" />	<!--Miscellaneous Symbols-->
+		<blk start="2700" />	<!--Dingbats-->
+		<blk start="27C0" />	<!--Miscellaneous Mathematical Symbols-A-->
+		<blk start="27F0" />	<!--Supplemental Arrows-A-->
+		<blk start="2800" />	<!--Braille Patterns-->
+		<blk start="2900" />	<!--Supplemental Arrows-B-->
+		<blk start="2980" />	<!--Miscellaneous Mathematical Symbols-B-->
+		<blk start="2A00" />	<!--Supplemental Mathematical Operators-->
+		<blk start="2B00" />	<!--Miscellaneous Symbols and Arrows-->
+		<blk start="2C00" />	<!--Glagolitic-->
+		<blk start="2C60" />	<!--Latin Extended-C-->
+		<blk start="2C80" />	<!--Coptic-->
+		<blk start="2D00" />	<!--Georgian Supplement-->
+		<blk start="2D30" />	<!--Tifinagh-->
+		<blk start="2D80" />	<!--Ethiopic Extended-->
+		<blk start="2E00" />	<!--Supplemental Punctuation-->
+		<blk start="2E80" />	<!--CJK Radicals Supplement-->
+		<blk start="2F00" />	<!--Kangxi Radicals-->
+		<blk start="2FF0" />	<!--Ideographic Description Characters-->
+		<blk start="3000" />	<!--CJK Symbols and Punctuation-->
+		<blk start="3040" />	<!--Hiragana-->
+		<blk start="30A0" />	<!--Katakana-->
+		<blk start="3100" />	<!--Bopomofo-->
+		<blk start="3130" />	<!--Hangul Compatibility Jamo-->
+		<blk start="3190" />	<!--Kanbun-->
+		<blk start="31A0" />	<!--Bopomofo Extended-->
+		<blk start="31C0" />	<!--CJK Strokes-->
+		<blk start="31F0" />	<!--Katakana Phonetic Extensions-->
+		<blk start="3200" />	<!--Enclosed CJK Letters and Months-->
+		<blk start="3300" />	<!--CJK Compatibility-->
+		<blk start="3400" />	<!--CJK Unified Ideographs Extension A-->
+		<blk start="4DC0" />	<!--Yijing Hexagram Symbols-->
+		<blk start="4E00" />	<!--CJK Unified Ideographs-->
+		<blk start="A000" />	<!--Yi Syllables-->
+		<blk start="A490" />	<!--Yi Radicals-->
+		<blk start="A700" />	<!--Modifier Tone Letters-->
+		<blk start="A720" />	<!--Latin Extended-D-->
+		<blk start="A800" />	<!--Syloti Nagri-->
+		<blk start="A840" />	<!--Phags-pa-->
+		<blk start="AC00" />	<!--Hangul Syllables-->
+		<blk start="D800" />	<!--High Surrogates-->
+		<blk start="DB80" />	<!--High Private Use Surrogates-->
+		<blk start="DC00" />	<!--Low Surrogates-->
+		<blk start="E000" />	<!--Private Use Area-->
+		<blk start="F900" />	<!--CJK Compatibility Ideographs-->
+		<blk start="FB00" />	<!--Alphabetic Presentation Forms-->
+		<blk start="FB50" />	<!--Arabic Presentation Forms-A-->
+		<blk start="FE00" />	<!--Variation Selectors-->
+		<blk start="FE10" />	<!--Vertical Forms-->
+		<blk start="FE20" />	<!--Combining Half Marks-->
+		<blk start="FE30" />	<!--CJK Compatibility Forms-->
+		<blk start="FE50" />	<!--Small Form Variants-->
+		<blk start="FE70" />	<!--Arabic Presentation Forms-B-->
+		<blk start="FF00" />	<!--Halfwidth and Fullwidth Forms-->
+		<blk start="FFF0" />	<!--Specials-->
+		<blk start="10000" />	<!--Linear B Syllabary-->
+		<blk start="10080" />	<!--Linear B Ideograms-->
+		<blk start="10100" />	<!--Aegean Numbers-->
+		<blk start="10140" />	<!--Ancient Greek Numbers-->
+		<blk start="10300" />	<!--Old Italic-->
+		<blk start="10330" />	<!--Gothic-->
+		<blk start="10380" />	<!--Ugaritic-->
+		<blk start="103A0" />	<!--Old Persian-->
+		<blk start="10400" />	<!--Deseret-->
+		<blk start="10450" />	<!--Shavian-->
+		<blk start="10480" />	<!--Osmanya-->
+		<blk start="10800" />	<!--Cypriot Syllabary-->
+		<blk start="10900" />	<!--Phoenician-->
+		<blk start="10A00" />	<!--Kharoshthi-->
+		<blk start="12000" />	<!--Cuneiform-->
+		<blk start="12400" />	<!--Cuneiform Numbers and Punctuation-->
+		<blk start="1D000" />	<!--Byzantine Musical Symbols-->
+		<blk start="1D100" />	<!--Musical Symbols-->
+		<blk start="1D200" />	<!--Ancient Greek Musical Notation-->
+		<blk start="1D300" />	<!--Tai Xuan Jing Symbols-->
+		<blk start="1D360" />	<!--Counting Rod Numerals-->
+		<blk start="1D400" />	<!--Mathematical Alphanumeric Symbols-->
+		<blk start="20000" />	<!--CJK Unified Ideographs Extension B-->
+		<blk start="2F800" />	<!--CJK Compatibility Ideographs Supplement-->
+		<blk start="E0000" />	<!--Tags-->
+		<blk start="E0100" />	<!--Variation Selectors Supplement-->
+		<blk start="FFF80" />	<!--Supplementary Private Use Area-A-->
+		<blk start="10FF80" />	<!--Supplementary Private Use Area-B-->
 	</ellipsis>
 	<!-- You can make any wiki templates (w/o params) you want. Maybe you’d like to enclose them in CDATA. -->
 	<wiki-templates>
