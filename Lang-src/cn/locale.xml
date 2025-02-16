@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<locale native="汉语" international="Chinese" eng-terms="1" trigger-stamp="2025213">
+<locale native="中文" international="Chinese" eng-terms="1" trigger-stamp="2025213"> 
 	<trigger-langs>
 		<lang iso="cn" />
 	</trigger-langs>
