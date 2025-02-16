@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ut type="full-transl">
  <info>
   <orig lang="en" fname="en.uorig" />
@@ -182,7 +182,7 @@
     </text>
     <text id="YApproxBc">
      <orig>≈$ BC</orig>
-     <transl>约 公元前 $</transl>
+     <transl>约公元前 $</transl>
     </text>
     <text id="Decade">
      <orig>$s</orig>
@@ -240,7 +240,7 @@
     <text id="Script">
      <orig>Script info</orig>
      <au-cmt>Test: any normal block (e.g. Deva, Hebr…)</au-cmt>
-     <transl>脚本信息</transl>
+     <transl>文字信息</transl>
     </text>
     <text id="Control">
      <orig>About control characters</orig>
@@ -328,42 +328,42 @@
     <text id="0">
      <orig>&lt;a {1}&gt;Deprecated character&lt;/a&gt;</orig>
      <au-cmt>Unused right now, but may appear in newer Unicode</au-cmt>
-     <transl>&lt;a {1}&gt;不建议使用的字符&lt;/a&gt;</transl>
+     <transl>&lt;a {1}&gt;不建议使用的字&lt;/a&gt;</transl>
     </text>
     <text id="1">
      <orig>&lt;a {1}&gt;Deprecated character&lt;/a&gt;, used to revert to default state</orig>
      <au-cmt>Example: 206B</au-cmt>
-     <transl>&lt;a {1}&gt;不建议使用的字符&lt;/a&gt;, 用于恢复默认状态</transl>
+     <transl>&lt;a {1}&gt;不建议使用的字&lt;/a&gt;, 用于恢复默认状态</transl>
     </text>
     <text id="Ins">
      <orig>&lt;a {1}&gt;Deprecated character&lt;/a&gt;, use {2} instead</orig>
      <au-cmt>Example: 17A3</au-cmt>
-     <transl>&lt;a {1}&gt;不建议使用的字符&lt;/a&gt;, 使用 {2} 替代</transl>
+     <transl>&lt;a {1}&gt;不建议使用的字&lt;/a&gt;, 使用 {2} 替代</transl>
     </text>
     <text id="Ins2">
      <orig>&lt;a {1}&gt;Deprecated character&lt;/a&gt;, use {2} or {3} instead</orig>
      <au-cmt>Only 2329, 232A</au-cmt>
-     <transl>&lt;a {1}&gt;不建议使用的字符&lt;/a&gt;, 使用 {2} 或 {3} 替代</transl>
+     <transl>&lt;a {1}&gt;不建议使用的字&lt;/a&gt;, 使用 {2} 或 {3} 替代</transl>
     </text>
     <text id="2">
      <orig>&lt;a {1}&gt;Deprecated character&lt;/a&gt;, use other bidirectional mechanisms instead</orig>
      <au-cmt>Only 206A</au-cmt>
-     <transl>&lt;a {1}&gt;不建议使用的字符&lt;/a&gt;, 使用其他双向机制替代</transl>
+     <transl>&lt;a {1}&gt;不建议使用的字&lt;/a&gt;, 使用其他双向机制替代</transl>
     </text>
     <text id="3">
      <orig>&lt;a {1}&gt;Deprecated character&lt;/a&gt;, use specific Arabic presentation forms instead</orig>
      <au-cmt>Only 206D</au-cmt>
-     <transl>&lt;a {1}&gt;不建议使用的字符&lt;/a&gt;, 使用特定阿拉伯展示形式替代</transl>
+     <transl>&lt;a {1}&gt;不建议使用的字&lt;/a&gt;, 使用特定阿拉伯展示形式替代</transl>
     </text>
     <text id="4">
      <orig>&lt;a {1}&gt;Deprecated character&lt;/a&gt;, use 0660…69 and other national digits</orig>
      <au-cmt>Only 206E</au-cmt>
-     <transl>&lt;a {1}&gt;不建议使用的字符&lt;/a&gt;, 使用 0660 ... 69 和其他国别数字</transl>
+     <transl>&lt;a {1}&gt;不建议使用的字&lt;/a&gt;, 使用 0660 ... 69 和其他国别数字</transl>
     </text>
     <text id="5">
      <orig>&lt;a {1}&gt;Deprecated character&lt;/a&gt;, use application-level protocols</orig>
      <au-cmt>Only E0001</au-cmt>
-     <transl>&lt;a {1}&gt;不建议使用的字符&lt;/a&gt;, 使用应用程序级协议</transl>
+     <transl>&lt;a {1}&gt;不建议使用的字&lt;/a&gt;, 使用应用程序级协议</transl>
     </text>
    </group>
    <group id="Bidi">
@@ -448,11 +448,11 @@
      </au-cmt>
      <text id="Name">
       <orig>Boundary neutral</orig>
-      <transl>边界中立</transl>
+      <transl>边界对称</transl>
      </text>
      <text id="Short">
       <orig>Boundary neutral</orig>
-      <transl>边界中立</transl>
+      <transl>边界对称</transl>
      </text>
      <text id="Text">
       <orig>
@@ -518,7 +518,7 @@
      </text>
      <text id="Text">
       <orig>+ and − characters inside a European number become its part. ± character is outside of this class.</orig>
-      <transl>+和-字符在欧洲数字中成为其一部分。±字符不属于此类。</transl>
+      <transl>+ 和 - 字符在欧洲数字中成为其一部分。± 号不属于此类。</transl>
      </text>
     </group>
     <group id="ET">
@@ -528,11 +528,11 @@
      </au-cmt>
      <text id="Name">
       <orig>European terminator</orig>
-      <transl>欧洲终结符</transl>
+      <transl>欧洲终止符</transl>
      </text>
      <text id="Short">
       <orig>European terminator</orig>
-      <transl>欧洲终结符</transl>
+      <transl>欧洲终止符</transl>
      </text>
      <text id="Text">
       <orig>Currency and other characters that commonly appear near numbers. When near a European number, these characters become its part.</orig>
@@ -551,7 +551,7 @@
      </text>
      <text id="Text">
       <orig>Latin, Cyrillic and other scripts written left-to-right. As [[ps:Hani|CJK ideographs]] are the most numerous part of Unicode, it is the pargest class.</orig>
-      <transl>拉丁文、西里尔文和其他从左至右书写的脚本。由于[[ps:Hani|CJK 表意文字]]是 Unicode 中数量最多的部分，因此这是最大的类别。</transl>
+      <transl>从左到右书写的拉丁文、西里尔文和其他文字。由于[[ps:Hani|CJK 表意文字]]是 Unicode 中数量最多的部分，因此这是最大的类别。</transl>
      </text>
     </group>
     <group id="NSM">
@@ -561,26 +561,26 @@
      </au-cmt>
      <text id="Name">
       <orig>Non-spacing mark</orig>
-      <transl>不占位标记</transl>
+      <transl>非间距标记</transl>
      </text>
      <text id="Short">
       <orig>Non-spacing mark</orig>
-      <transl>不占位标记</transl>
+      <transl>非间距标记</transl>
      </text>
      <text id="Text">
       <orig>Non-spacing and enclosing combining marks. Writing direction is borrowed from base character.</orig>
-      <transl>不占位和包围组合标记。书写方向继承自基础字符。</transl>
+      <transl>非间距标记和包围组合标记。书写方向继承自基础字符。</transl>
      </text>
     </group>
     <group id="ON">
      <au-cmt>Test: !"…</au-cmt>
      <text id="Name">
       <orig>Other neutral</orig>
-      <transl>其他 neutral</transl>
+      <transl>其他对称</transl>
      </text>
      <text id="Short">
       <orig>Other neutral</orig>
-      <transl>其他 neutral</transl>
+      <transl>其他对称</transl>
      </text>
      <text id="Text">
       <orig>Adapts to direction of surrounding text.</orig>
@@ -591,15 +591,15 @@
      <au-cmt>Test: most braces, e.g. ()</au-cmt>
      <text id="Name">
       <orig>Mirroring neutral</orig>
-      <transl>镜像中立</transl>
+      <transl>镜像对称</transl>
      </text>
      <text id="Short">
       <orig>Mirroring neutral</orig>
-      <transl>镜像中立</transl>
+      <transl>镜像对称</transl>
      </text>
      <text id="Text">
       <orig>Parentheses and other similar characters are mirrored. All these characters are neutral, as they adapt to direction of surrounding text.</orig>
-      <transl>括号和其他类似字符会镜像显示。所有这些字符都是中性的，因为它们适应周围文本的方向。</transl>
+      <transl>括号和其他类似字符会镜像显示。所有这些字符都是对称的，因为它们适应周围文本的方向。</transl>
      </text>
     </group>
     <group id="R">
@@ -619,7 +619,7 @@
        <p>[[pb:AL|Arabic letters]] behave differently with European numbers and comprise a separate category.</p>
       </orig>
       <transl>
-       <p>[[ps:Hebr|希伯来语]]和中东的历史脚本。</p>
+       <p>[[ps:Hebr|希伯来语]]和中东的历史记载。</p>
        <p />
        <p>[[pb:AL|阿拉伯字母]]与欧洲数字有不同的行为，并构成一个单独的类别。</p>
       </transl>
@@ -663,9 +663,9 @@
        <p>See also [[pt:space|space]].</p>
       </orig>
       <transl>
-       <p>中性。有关于带有空格的文本格式的一些微妙规则。</p>
+       <p>对称。有关于带有空格的文本格式的一些微妙规则。</p>
        <p />
-       <p>另见 [[pt:空格|空格]]。</p>
+       <p>另见 [[pt:space|空格]]。</p>
       </transl>
      </text>
     </group>
@@ -701,7 +701,7 @@
     </text>
     <text id="CjkZhuang">
      <orig>Zhuang number</orig>
-     <transl>壮文 数值</transl>
+     <transl>壮文数值</transl>
     </text>
     <text id="CjkVietnamese">
      <orig>Vietnamese number</orig>
@@ -796,7 +796,7 @@
     <text id="Script">
      <orig>Script</orig>
      <au-cmt>Test: Any char w/script (e.g. A)</au-cmt>
-     <transl>脚本</transl>
+     <transl>文字</transl>
     </text>
     <text id="Type">
      <orig>Type</orig>
@@ -962,7 +962,7 @@
     </text>
     <text id="Exp">
      <orig>experimental ''(attempt to make a new script for existing language, like Deseret)''</orig>
-     <transl>实验 ''（为现有语言创造新脚本的尝试，如：德瑟雷特字母）''</transl>
+     <transl>实验 ''（为现有语言创造新文字的尝试，如：德瑟雷特字母）''</transl>
     </text>
     <text id="Conserved">
      <orig>historical, no decipherment needed ''(like Glagolitic)''</orig>
@@ -1263,7 +1263,7 @@
    <group id="0000">
     <text id="Name">
      <orig>Latin basic (ASCII)</orig>
-     <transl>拉丁文 basic (ASCII)</transl>
+     <transl>拉丁语基础词汇（ASCII）</transl>
     </text>
     <text id="Text" force-attention="true">
      <orig>
@@ -1275,13 +1275,7 @@
       <p />
       <p>The rest 128 characters could be filled with everything. One such 8-bit encoding, [[pt:latin1|Latin-1]], also came to Unicode.</p>
      </orig>
-     <transl>
-      <p>'''美国信息交换标准代码（ASCII）'''是1963年在美国开发的一种七位字符编码。选择7位宽度是为了便于通过电报传输数据。如果过多，ASCII可以很容易地减少到6位，留下字符40 ... 5F和20 ... 3F。 '''基本拉丁字母'''与ASCII相同，因此即使在错误编码的情况下，英语Unicode文本也是可读的。</p>
-      <p />
-      <p>前32个字符，00 ... 1F，是[[pt:控制字符|控制字符]]，其中只有少数至今仍在使用。接下来的是95个可打印字符。许多字符可以追溯到打字机：要打印À，需要键入A，回车一格，然后输入反引号。最后一个字符，7F=DEL，可以追溯到穿孔带{{-}}所有轨道上都有孔表示该字符是误打的，不应{{_}}读取。</p>
-      <p />
-      <p>ASCII存在许多国家标准变体：英国用英镑£替换了井号#，苏联用货币符号¤替换了美元$，德国用变音符ÄÖÜäöü替换了[\]{|}，日本用日元¥替换了反斜杠 \ ...</p>
-     </transl>
+     <transl>'''美国信息交换标准码 （ASCII）''' 是 1963 年在美国开发的一种 7 位字符编码。选择 7 位的宽度作为通过电报传输数据的折衷方案。如果太多，ASCII 可能很容易被切成 6 位，留下 40 个字符......5F 和 20...3F. Unicode 的 '''Basic Latin''' 与 ASCII 相同，因此即使编码错误，英文 Unicode 文本也可以阅读。前 32 个字符，00...1F 是 [[pt：control|control]]，现在很少使用它们。它们后面有 95 个可打印字符。其中许多回到打字机上：要打印 À，您需要键入 A，将回车返回一个位置，然后键入 backquote。最后一个字符 7F=DEL 回到打孔磁带——所有轨道上打孔的孔表明该字符是错误打孔的，不应读取{{_}}。存在许多 ASCII 的国家变体：英国将哈希 # 替换为英镑 £，将苏联元 $ 替换为硬币 ¤，德国 [\]{|} 替换为元音变音符号 ÄÖÜäöüü，日本反斜杠 \ 替换为日元 ¥...其余 128 个字符可以装满所有内容。一种这样的 8 位编码 [[pt：latin1|Latin-1]] 也来到了 Unicode。</transl>
     </text>
    </group>
    <group id="0080">
@@ -1310,7 +1304,7 @@
    <group id="0100">
     <text id="Name">
      <orig>Latin extended A</orig>
-     <transl>拉丁文 扩展 A</transl>
+     <transl>拉丁文扩展 A</transl>
     </text>
     <text id="Text">
      <orig>Contains characters of Central and Eastern Europe, Baltic and Celtic languages, Saami, Maltese, Turkish, Esperanto and a few others.</orig>
@@ -1320,7 +1314,7 @@
    <group id="0180">
     <text id="Name">
      <orig>Latin extended B</orig>
-     <transl>拉丁文 扩展 B</transl>
+     <transl>拉丁文扩展 B</transl>
     </text>
     <text id="Text">
      <orig>Contains characters of Slovene, Croatian, Romanian, Livonian, Zhuang, Pinyin (Latin trascription of Chinese), African, Native American languages, and old (pre-1930) Latin of xUSSR languages.</orig>
@@ -1387,20 +1381,20 @@
       <p>Character 0310 Candrabindu is intended for writing Indic languages in Latin and Cyrillic. Every [[pt:brahmic|Indic]] script has its own candrabindu.</p>
      </orig>
      <transl>
-      <p>Diacritical marks are above-line, below-line 和 inline 字符集 affixed to letters, 和 摩底文fying or clarifying their meanings. For example, accent like in ''résumé''.</p>
+      <p>变音符号是附加到字母的上行、下行和行内字符，用于修改或阐明其含义。例如，像 ''résumé'' 这样的重音。</p>
       <p />
-      <p>Unicode provides two ways of conveying diacritics, [[pt:precomposed|precomposed]] 字符集 和 combinations “main character +{{_}}'''[[pt:combining|combining]] mark'''”. To simplify 搜索 in such a mess, Unicode has an algorithm of [[pt:normalization|normalization]].</p>
+      <p>Unicode 提供了两种表示变音符的方法，即[[pt:precomposed|预合成]]字符和 "主字符 +{{_}}''[[pt:combining|组合]] 标记'''"组合。为了简化在这种混乱情况下的搜索，Unicode 采用了一种[[pt:normalization|规范化]]算法。</p>
       <p />
-      <p>字符集 034F CGJ is not{{_}}a{{_}}joiner, but ''disjoiner'' of digraphs. It’s used in Czech (ch is pronounced as {{t|x}}, 和 alphabetical order is ce &amp;lt;{{_}}c+CGJ+h &amp;lt;{{_}}ci &amp;lt;{{_}}d &amp;lt;{{_}}ch), Hungarian, 希伯来文 和 some 其他 语言.</p>
+      <p>字符 034F CGJ 不是连接符，而是二合字母的 ''disjoiner'' 。它在捷克语中使用（ch 发音为 {{t|x}}，字母顺序为 ce <c+CGJ+h <ci <d <ch）、匈牙利语、希伯来语和其他一些语言。</p>
       <p />
-      <p>Character 0310 C和rabindu is intended for writing Indic 语言 in 拉丁文 和 西里尔字母. Every [[pt:婆罗米文c|Indic]] 脚本 has its own c和rabindu.</p>
+      <p>字符 0310 Candrabindu 用于用拉丁语和西里尔语书写印度语。每个 [[pt：brahmic|Indic]] 文字有自己的 candrabindu。</p>
      </transl>
     </text>
    </group>
    <group id="0370">
     <text id="Name">
      <orig>Greek and Coptic</orig>
-     <transl>希腊语 和 科普特字母</transl>
+     <transl>希腊语和科普特字母</transl>
     </text>
    </group>
    <group id="0400">
@@ -1498,7 +1492,7 @@
    <group id="0870">
     <text id="Name">
      <orig>Arabic extended B</orig>
-     <transl>阿拉伯语 扩展 B</transl>
+     <transl>阿拉伯语扩展 B</transl>
     </text>
     <text id="Text">
      <orig>
@@ -1516,7 +1510,7 @@
    <group id="08A0">
     <text id="Name">
      <orig>Arabic extended A</orig>
-     <transl>阿拉伯语 扩展 A</transl>
+     <transl>阿拉伯语扩展 A</transl>
     </text>
     <text id="Text">
      <orig>Additional Arabic letters for [[ps:Rohg|Rohingya]] ''(Myanmar)'', Belorussian, Tatar, Bashkir, Arvi ''(India, Sri Lanka)'', Shahmukhi ''([[ps:Guru|Punjabi]])'', Hindko ''(Pakistan)'' and African languges (e.g. Berber). Also signs of comments to Quran.</orig>
@@ -1738,7 +1732,7 @@
    <group id="19E0">
     <text id="Name">
      <orig>Khmer symbols</orig>
-     <transl>高棉语 符号</transl>
+     <transl>高棉语符号</transl>
     </text>
     <text id="Text">
      <orig>
@@ -1768,7 +1762,7 @@
    <group id="1AB0">
     <text id="Name">
      <orig>Combining diacritical marks extended</orig>
-     <transl>组合变音标记 扩展</transl>
+     <transl>组合变音标记扩展</transl>
     </text>
     <text id="Text">
      <orig>Used in German and Scottish dialectology.</orig>
@@ -1808,7 +1802,7 @@
    <group id="1C80">
     <text id="Name">
      <orig>Cyrillic extended C</orig>
-     <transl>西里尔字母 扩展 C</transl>
+     <transl>西里尔字母扩展 C</transl>
     </text>
     <text id="Text">
      <orig>
@@ -1826,7 +1820,7 @@
    <group id="1C90">
     <text id="Name">
      <orig>Georgian extended</orig>
-     <transl>格鲁吉亚 扩展</transl>
+     <transl>格鲁吉亚扩展</transl>
     </text>
     <text id="Text">
      <orig>
@@ -1867,7 +1861,7 @@
       <p>Part of symbols vary from language to language. 1CF5 in Devanagari looks like an hourglass, in Bengali like a cross. 1CF6 in Devanagari looks like breve ˘, in Bengali{{-}}like upright or inverted small omega ω. Glyph looking like an upright omega over inverted one existed in Unicode for some time, and is more often found in research than in original sources.</p>
      </orig>
      <transl>
-      <p>吠陀使用的字符存在于[[ps:Deva|天城文]]和其他印度语系脚本中。当时的发音与现代有很大不同，主要是语音符号。</p>
+      <p>吠陀使用的字符存在于[[ps:Deva|天城文]]和其他印度语系文字中。当时的发音与现代有很大不同，主要是语音符号。</p>
       <p />
       <p>部分符号因语言而异。Devanagari 中的1CF5看起来像沙漏，在孟加拉文中像十字架。Devanagari 中的1CF6看起来像短音符 ˘，在孟加拉文则是正立或倒置的小写omega ω。一个看起来像正立的omega叠加在倒置的omega上的符号在一段时间内存在于Unicode中，它在研究中比在原始来源中更常见。</p>
      </transl>
@@ -1916,7 +1910,7 @@
    <group id="1F00">
     <text id="Name">
      <orig>Greek extended</orig>
-     <transl>希腊语 扩展</transl>
+     <transl>希腊语扩展</transl>
     </text>
     <text id="Text">
      <orig>
@@ -1970,7 +1964,7 @@
    <group id="2070">
     <text id="Name">
      <orig>Superscripts and subscripts</orig>
-     <transl>上标 和 下标</transl>
+     <transl>上标和下标</transl>
     </text>
     <text id="Text">
      <orig>
@@ -2078,8 +2072,8 @@
       <p>箭头是用来指示方向的字符。以下是箭头的一些用途：</p>
       <p>* 标记按钮；</p>
       <p>* 路标、交通地图上；</p>
-      <p>* 在数学中{{-}}映射、结果、极限、向量、单调函数；</p>
-      <p>* 在化学中{{-}}单向或双向进行的反应、气体释放、沉淀。</p>
+      <p>* 在数学中——映射、结果、极限、向量、单调函数；</p>
+      <p>* 在化学中——单向或双向进行的反应、气体释放、沉淀。</p>
      </transl>
     </text>
    </group>
@@ -2222,7 +2216,7 @@
    <group id="2600">
     <text id="Name">
      <orig>Symbols miscellaneous</orig>
-     <transl>符号 杂项</transl>
+     <transl>其它符号</transl>
     </text>
     <text id="Text">
      <orig>This block contains [[pt:emoji|emoji]], characters from astronomy, astrology, tabletop games, Eastern esoteric, religion, politics, and just for adorning printed text. Many characters are taken from Japanese encoding ARIB STD B24 used for broadcasting news, weather, traffic jams over digital television.</orig>
@@ -2241,7 +2235,7 @@
       <p>Only a few new emoji aren’t from that library: they were added in version 6.0 or later, and aren’t VS16.</p>
      </orig>
      <transl>
-      <p>著名的预计算机打印机装饰库，“Hermann Zapf 丁贝特”（1977）。曾广泛分布为Post脚本字体，并保证存在于每个PDF查看器中。该块包含几个VS16 [[pt:表情符号|表情符号]]。</p>
+      <p>著名的预计算机打印机装饰库，“Hermann Zapf 丁贝特”（1977）。曾广泛分布为Post文字字体，并保证存在于每个PDF查看器中。该块包含几个VS16 [[pt:表情符号|表情符号]]。</p>
       <p />
       <p>只有少数新表情符号不是来自那个库：它们是在版本6.0或之后添加的，并且不是VS16。</p>
      </transl>
@@ -2286,7 +2280,7 @@
    <group id="2980">
     <text id="Name">
      <orig>Mathematical symbols miscellaneous B</orig>
-     <transl>数学 符号 杂项 B</transl>
+     <transl>数学符号杂项 B</transl>
     </text>
     <text id="Text">
      <orig>Various mathematical symbols: brackets, angles, empty sets, box-and-whiskers…</orig>
@@ -2306,7 +2300,7 @@
    <group id="2B00">
     <text id="Name">
      <orig>Symbols and arrows miscellaneous</orig>
-     <transl>符号 和 箭头 杂项</transl>
+     <transl>符号和箭头杂项</transl>
     </text>
     <text id="Text">
      <orig>
@@ -2330,7 +2324,7 @@
    <group id="2C60">
     <text id="Name">
      <orig>Latin extended C</orig>
-     <transl>拉丁文扩展C</transl>
+     <transl>拉丁文扩展 C</transl>
     </text>
     <text id="Text">
      <orig>Characters of various small languages: Melpa and Nii ''(Papua New Guinea)'', Shona ''(Zimbabwe)'', Uyghur and others. Also seven letters of the Uralic Phonetic Alphabet, and Claudian letter Ⱶ meaning the same as modern Y but designed for printing with existing stencils.</orig>
@@ -2392,7 +2386,7 @@
    <group id="2DE0">
     <text id="Name">
      <orig>Cyrillic extended A</orig>
-     <transl>西里尔字母 扩展 A</transl>
+     <transl>西里尔字母扩展 A</transl>
     </text>
     <text id="Text">
      <orig>Combining Cyrillic letters from Church Slavonic.</orig>
@@ -2636,7 +2630,7 @@
    <group id="3400">
     <text id="Name">
      <orig>CJK unified ideographs extension A</orig>
-     <transl>CJK统一表意文字扩展A</transl>
+     <transl>CJK统一表意文字扩展 A</transl>
     </text>
     <text id="Text">
      <orig>
@@ -2714,7 +2708,7 @@
    <group id="A640">
     <text id="Name">
      <orig>Cyrillic extended B</orig>
-     <transl>西里尔字母 扩展 B</transl>
+     <transl>西里尔字母扩展 B</transl>
     </text>
     <text id="Text">
      <orig>
@@ -2768,7 +2762,7 @@
    <group id="A720">
     <text id="Name">
      <orig>Latin extended D</orig>
-     <transl>拉丁文扩展D</transl>
+     <transl>拉丁文扩展 D</transl>
     </text>
     <text id="Text">
      <orig>Letters from Uralic Phonetic Alphabet, from medieval transcription and notation systems, ancillary Mayan letters used during colonial period, and others.</orig>
@@ -2806,7 +2800,7 @@
    <group id="A8E0">
     <text id="Name">
      <orig>Devanagari extended</orig>
-     <transl>天城文 扩展</transl>
+     <transl>天城文扩展</transl>
     </text>
     <text id="Text">
      <orig>Chanting from Samaveda (book of religious songs), variants of ''candrabindu'' sign (nasal vowel), editorial marks, religious symbols, vowel “ay” invented by Europeans for small non-written languages of India.</orig>
@@ -2844,7 +2838,7 @@
    <group id="A9E0">
     <text id="Name">
      <orig>Myanmar extended B</orig>
-     <transl>缅甸 扩展 B</transl>
+     <transl>缅甸扩展 B</transl>
     </text>
     <text id="Text">
      <orig>Letters and digits for languages: Pali ''(liturgic in Buddhism)'' and Red Tai ''(Myanmar, 100k as of 2010)''.</orig>
@@ -2860,7 +2854,7 @@
    <group id="AA60">
     <text id="Name">
      <orig>Myanmar extended A</orig>
-     <transl>缅甸 扩展 A</transl>
+     <transl>缅甸扩展 A</transl>
     </text>
     <text id="Text">
      <orig>Letter for Khamti ''(Myanmar, India, 13k as of 2007)'' and Tai-Aiton ''(Assam, 1500 people as of 2006)''.</orig>
@@ -2886,7 +2880,7 @@
    <group id="AB00">
     <text id="Name">
      <orig>Ethiopic extended A</orig>
-     <transl>埃塞俄比亚语扩展A</transl>
+     <transl>埃塞俄比亚语扩展 A</transl>
     </text>
     <text id="Text">
      <orig>
@@ -2906,7 +2900,7 @@
    <group id="AB30">
     <text id="Name">
      <orig>Latin extended E</orig>
-     <transl>拉丁文扩展E</transl>
+     <transl>拉丁文扩展 E</transl>
     </text>
     <text id="Text">
      <orig>Letters used in German and Scottish dialectology, transcription of Native American and Sino-Tibetan languages, and in Latin writing of Yakut (Novgorodov alphabet, 1920–1929).</orig>
@@ -3015,7 +3009,7 @@
      </orig>
      <transl>
       <p>通常情况下（例如，在浏览器中），通过选择另一种字体或启用Open类型功能来选择一个或另一个字符的变化。Unicode允许另一种方法：创建字符和选择器的连字。</p>
-      <p>[[ps:Latn|拉丁]]、[[ps:Mymr|缅甸]]和其他一些脚本使用VS1。[[ps:Hani|CJK表意文字]]使用VS1至VS3。[[pt:表情符号|表情符号]]可以通过VS16变为彩色或通过VS15变为文本。</p>
+      <p>[[ps:Latn|拉丁]]、[[ps:Mymr|缅甸]]和其他一些文字使用VS1。[[ps:Hani|CJK表意文字]]使用VS1至VS3。[[pt:表情符号|表情符号]]可以通过VS16变为彩色或通过VS15变为文本。</p>
      </transl>
     </text>
    </group>
@@ -3331,7 +3325,7 @@
    <group id="10780">
     <text id="Name">
      <orig>Latin extended F</orig>
-     <transl>拉丁文扩展F</transl>
+     <transl>拉丁文扩展 F</transl>
     </text>
     <text id="Text">
      <orig>Modifier AA is from Voice Quality Symbols used to transcribe speech disorders. The rest are from phonetics, and mean phonemes pronounced incompletely.</orig>
@@ -3494,7 +3488,7 @@
    <group id="10EC0">
     <text id="Name">
      <orig>Arabic extended C</orig>
-     <transl>阿拉伯语扩展C</transl>
+     <transl>阿拉伯语扩展 C</transl>
     </text>
     <text id="Text">
      <orig>Characters from Turkish and Libyan Quran, and rare variations of Pegon (writing [[ps:Java|Javanese]] with Arabic letters).</orig>
@@ -3660,7 +3654,7 @@
    <group id="116D0">
     <text id="Name">
      <orig>Myanmar extended C</orig>
-     <transl>缅甸文扩展C</transl>
+     <transl>缅甸文扩展 C</transl>
     </text>
     <text id="Text">
      <orig>Two sets of digits gaining popularity among minorities.</orig>
@@ -3712,7 +3706,7 @@
    <group id="11AB0">
     <text id="Name">
      <orig>Canadian Aboriginal syllabics extended A</orig>
-     <transl>加拿大原住民音节文字扩展A</transl>
+     <transl>加拿大原住民音节文字扩展 A</transl>
     </text>
     <text id="Text">
      <orig>Twelve syllables of Inuit (Eskimo) people of Nattilik (literally ''people of seal''), and four historical syllables of Cree and Ojibwe.</orig>
@@ -3728,7 +3722,7 @@
    <group id="11B00">
     <text id="Name">
      <orig>Devanagari extended A</orig>
-     <transl>天城文扩展A</transl>
+     <transl>天城文扩展 A</transl>
     </text>
     <text id="Text">
      <orig>Jain punctuation and [[pt:ligature|ligatures]] for phrased like “may it be blessed”.</orig>
@@ -3886,7 +3880,7 @@
    <group id="13460">
     <text id="Name">
      <orig>Egyptian hieroglyphs extended A</orig>
-     <transl>埃及象形文字扩展A</transl>
+     <transl>埃及象形文字扩展 A</transl>
     </text>
     <text id="Text">
      <orig>
@@ -3929,7 +3923,7 @@
     </text>
     <text id="Text">
      <orig>Early phases of [[ps:Bamu|Bamum]] A to F, both ideographic and syllabic. Final syllabic phase G is in [[pt:bmp|Basic Plane]].</orig>
-     <transl>[[ps:Bamu|巴穆姆]] A到F早期阶段，包括表意文字和音节文字。最终的音节阶段G位于[[pt:bmp|基本多文种平面]]中。</transl>
+     <transl>[[ps:Bamu|巴穆姆]] A 到 F 早期阶段，包括表意文字和音节文字。最终的音节阶段G位于[[pt:bmp|基本多文种平面]]中。</transl>
     </text>
    </group>
    <group id="16A40">
@@ -4000,7 +3994,7 @@
       <p>While Vietnam wrote with ideographs, two characters were used to convey local pronunciation. Both have two variants that never occur in a single text and thus [[pt:unification|unified]]. The second form looks like arrow &lt;big&gt;↑&lt;/big&gt; and lightning &lt;big&gt;ϟ&lt;/big&gt; respectively.</p>
      </orig>
      <transl>
-      <p>旧[[pt:cjk|CJK]]脚本中使用的各种字符：[[ps:Nshu|女书]]、[[ps:Tang|西夏文]]、[[ps:Kits|契丹小字]]、古老的[[ps:Hani|汉字]]。</p>
+      <p>旧[[pt:cjk|CJK]] 文字中使用的各种字符：[[ps:Nshu|女书]]、[[ps:Tang|西夏文]]、[[ps:Kits|契丹小字]]、古老的[[ps:Hani|汉字]]。</p>
       <p />
       <p>相同的表意字符不会连续书写两次，在现代印刷中文中允许使用迭代标记，中文非正式场合以及日语使用{{sm|々}} U+3005。</p>
       <p />
@@ -4062,7 +4056,7 @@
    <group id="1AFF0">
     <text id="Name">
      <orig>Kana extended B</orig>
-     <transl>Kana扩展B</transl>
+     <transl>假名扩展 B</transl>
     </text>
     <text id="Text">
      <orig>Writing of Taiwanese dialect of Southern Min language with kana. Invented by Japanese linguists before World War 2.</orig>
@@ -4082,7 +4076,7 @@
    <group id="1B100">
     <text id="Name">
      <orig>Kana extended A</orig>
-     <transl>Kana扩展A</transl>
+     <transl>假名扩展 A</transl>
     </text>
     <text id="Text">
      <orig>31 characters of [[ps:Hent|Hentaigana]] (old [[ps:Hira|Hiragana]]), and 4 characters of [[ps:Kana|Katakana]] and Hiragana.</orig>
@@ -4383,7 +4377,7 @@
    <group id="1DF00">
     <text id="Name">
      <orig>Latin extended G</orig>
-     <transl>拉丁文扩展G</transl>
+     <transl>拉丁文扩展 G</transl>
     </text>
     <text id="Text">
      <orig>Various characters for speech disorders and phonetics: palatal and retroflex phonemes, clicks and others.</orig>
@@ -4411,7 +4405,7 @@
    <group id="1E030">
     <text id="Name">
      <orig>Cyrillic extended D</orig>
-     <transl>西里尔字母扩展D</transl>
+     <transl>西里尔字母扩展 D</transl>
     </text>
     <text id="Text">
      <orig>Modifier letters for writing transcription with Cyrillic letters. Such notation is widespread in schools and institutes across all former USSR.</orig>
@@ -4459,7 +4453,7 @@
    <group id="1E7E0">
     <text id="Name">
      <orig>Ethiopic extended B</orig>
-     <transl>埃塞俄比亚语扩展B</transl>
+     <transl>埃塞俄比亚语扩展 B</transl>
     </text>
     <text id="Text">
      <orig>New orthography of Gurage languages (Ethio-Semitic group, up to 5M) that was devised in 2013 and made written the entire family, not{{_}}just Sebat Bet encoded in 2005 (1.5M as of 2010). Some old letters are now [[pt:obsolete|obsolete]].</orig>
@@ -4725,7 +4719,7 @@
    <group id="1F780">
     <text id="Name">
      <orig>Geometric shapes extended</orig>
-     <transl>几何形状 扩展</transl>
+     <transl>几何形状扩展</transl>
     </text>
     <text id="Text">
      <orig>
@@ -4816,7 +4810,7 @@
    <group id="1FA70">
     <text id="Name">
      <orig>Symbols and pictographs extended A</orig>
-     <transl>符号和杂项象形图扩展A</transl>
+     <transl>符号和杂项象形图扩展 A</transl>
     </text>
     <text id="Text">
      <orig>[[pt:emoji|Emoji]] block that appeared in 2019. Clothes, medical items, entertainment, different objects, food…</orig>
@@ -4856,7 +4850,7 @@
    <group id="20000">
     <text id="Name">
      <orig>CJK unified ideographs extension B</orig>
-     <transl>CJK统一表意文字扩展B</transl>
+     <transl>CJK统一表意文字扩展 B</transl>
     </text>
     <text id="Text">
      <orig>Rare and historical [[ps:Hani|CJK ideographs]]. These ideographs were packed into the standard font “SimSun-ExtB” for Windows. Later many mistakes in the block were found, and even eight erroneously duplicated ideographs.</orig>
@@ -4866,7 +4860,7 @@
    <group id="2A700">
     <text id="Name">
      <orig>CJK unified ideographs extension C</orig>
-     <transl>CJK统一表意文字扩展C</transl>
+     <transl>CJK统一表意文字扩展 C</transl>
     </text>
     <text id="Text">
      <orig>4149 rare and old ideographs added in 2009. In 2021 4 more were added.</orig>
@@ -4876,7 +4870,7 @@
    <group id="2B740">
     <text id="Name">
      <orig>CJK unified ideographs extension D</orig>
-     <transl>CJK统一表意文字扩展D</transl>
+     <transl>CJK统一表意文字扩展 D</transl>
     </text>
     <text id="Text">
      <orig>222 rare and old ideographs added in 2010.</orig>
@@ -4886,7 +4880,7 @@
    <group id="2B820">
     <text id="Name">
      <orig>CJK unified ideographs extension E</orig>
-     <transl>CJK统一表意文字扩展E</transl>
+     <transl>CJK统一表意文字扩展 E</transl>
     </text>
     <text id="Text">
      <orig>5762 rare and old ideographs added in 2015.</orig>
@@ -4896,7 +4890,7 @@
    <group id="2CEB0">
     <text id="Name">
      <orig>CJK unified ideographs extension F</orig>
-     <transl>CJK统一表意文字扩展F</transl>
+     <transl>CJK统一表意文字扩展 F</transl>
     </text>
     <text id="Text">
      <orig>7473 ideographs added in 2017, Including rare, old and more than 1000 from Zhuang language.</orig>
@@ -4906,7 +4900,7 @@
    <group id="2EBF0">
     <text id="Name">
      <orig>CJK unified ideographs extension I</orig>
-     <transl>CJK统一表意文字扩展I</transl>
+     <transl>CJK统一表意文字扩展 I</transl>
     </text>
     <text id="Text">
      <orig>
@@ -4938,7 +4932,7 @@
    <group id="30000">
     <text id="Name">
      <orig>CJK unified ideographs extension G</orig>
-     <transl>CJK统一表意文字扩展G</transl>
+     <transl>CJK统一表意文字扩展 G</transl>
     </text>
     <text id="Text">
      <orig>
@@ -4956,7 +4950,7 @@
    <group id="31350">
     <text id="Name">
      <orig>CJK unified ideographs extension H</orig>
-     <transl>CJK统一表意文字扩展H</transl>
+     <transl>CJK统一表意文字扩展 H</transl>
     </text>
     <text id="Text">
      <orig>Rare ideographs, mainly from old Chinese newspapers.</orig>
@@ -4967,7 +4961,7 @@
     <au-cmt>U17</au-cmt>
     <text id="Name">
      <orig>CJK unified ideographs extension J</orig>
-     <transl>CJK统一表意文字扩展J</transl>
+     <transl>CJK统一表意文字扩展 J</transl>
     </text>
     <text id="Text">
      <orig>
@@ -5025,7 +5019,7 @@
     </text>
     <text id="LangNote">
      <orig>family of West African languages</orig>
-     <transl>家庭 of West 非洲n 语言</transl>
+     <transl>西非语系</transl>
     </text>
     <text id="Note">
      <orig>late 1980s</orig>
@@ -5046,7 +5040,7 @@
      <transl>
       <p>富拉人、富尔贝或福尔贝是游牧牧民，在撒哈拉以南非洲人类学上最接近欧洲人，并且是西非最热心的伊斯兰教倡导者。</p>
       <p />
-      <p>字母由伊布拉希马和阿布杜拉耶·巴里兄弟发明，他们当时还是青少年，为了更好地传达富拉语而创造，比拉丁文或阿拉伯文更合适。新的脚本逐渐流行，并在几内亚、利比里亚和其他国家的学校教授，Android也进行了本地化。</p>
+      <p>字母由伊布拉希马和阿布杜拉耶·巴里兄弟发明，他们当时还是青少年，为了更好地传达富拉语而创造，比拉丁文或阿拉伯文更合适。新的文字逐渐流行，并在几内亚、利比里亚和其他国家的学校教授，Android也进行了本地化。</p>
       <p />
       <p>该字母表以四个字母命名：A, D, L, M。这些字母的意思是“Alkule Dandayɗe Leñol Mulugol”——“保护人民免于消失的字母表”。</p>
       <p />
@@ -5069,7 +5063,10 @@
       <p />
       <p>Armenian sources state that the script was created by Mesrop Mashtots, creator of [[ps:Armn|Armenian]] alphabet{{-}}but those sources do{{_}}not{{_}}contain script samples, and it is{{_}}not{{_}}confirmed with non-Armenian sources. In 1886 a 16th century note in Armenian with Albanian script was found. In 1937 Soviet Armenologists found the full alphabet. In 1948 an early Christian temple of 6th century with authentic inscriptions was excavated when building a hydro power plant. In 1996 Sinai Palimpsest was found, the Bible written in Albanian, then erased and written in Georgian. It helped in decipherment, and the first one came in 2008.</p>
      </orig>
-     <transl>这个国家与巴尔干阿尔巴尼亚没有{{_}}关系，其自称不详：“阿尔巴尼亚”是希腊名字，“阿格万克”是现代亚美尼亚人。人们说 Lezgic 语言。自公元前 1 世纪以来，有一个强大的王国。公元461年被波斯人征服，公元7世纪短暂地臣服于哈扎尔人，再次获得自由。从 10 世纪开始，阿尔巴尼亚的一部分被土耳其化并转变为 Shirvan（现代阿塞拜疆）和卡拉巴赫。其他地区参与了亚美尼亚人、卡赫季格鲁吉亚人、达吉斯坦人的民族发生。可能直到 12 世纪，这种字母表一直被后代语言使用。这个国家横跨现代的俄罗斯和格鲁吉亚，因此通常被归类为欧洲。nn亚美尼亚的消息来源称，这个剧本是由[[ps：Armn|亚美尼亚语]] 字母{{-}}但这些来源没有{{_}}不包含脚本样本，并且{{_}}没有{{_}}被非亚美尼亚语来源确认。1886 年，发现了一张 16 世纪的亚美尼亚语钞票，带有阿尔巴尼亚文字。1937 年，苏联亚美尼亚学家发现了完整的字母表。1948 年，在建造水力发电厂时，挖掘出一座 6 世纪早期的基督教寺庙，上面有真实的铭文。1996 年，西奈抄本被发现，这本圣经是用阿尔巴尼亚语写的，然后被擦除并用格鲁吉亚语写成。它有助于破译，第一个是在 2008 年。</transl>
+     <transl>
+       <p>这个国家与巴尔干阿尔巴尼亚没有关系，其自称不详：“阿尔巴尼亚”是希腊名字，“阿格万克”是现代亚美尼亚人。人们说 Lezgic 语言。自公元前 1 世纪以来，有一个强大的王国。公元461年被波斯人征服，公元7世纪短暂地臣服于哈扎尔人，再次获得自由。从 10 世纪开始，阿尔巴尼亚的一部分被土耳其化并转变为 Shirvan（现代阿塞拜疆）和卡拉巴赫。其他地区参与了亚美尼亚人、卡赫季格鲁吉亚人、达吉斯坦人的民族发生。可能直到 12 世纪，这种字母表一直被后代语言使用。该国横跨现代俄罗斯和格鲁吉亚，因此通常被归类为欧洲。</p>
+       <p>亚美尼亚消息来源称，该文字是由 [[ps：Armn|亚美尼亚语]] 字母——但这些来源不包含字母样本，并且没有被非亚美尼亚语来源确认。1886 年，发现了一张 16 世纪的亚美尼亚语钞票，带有阿尔巴尼亚文字。1937 年，苏联亚美尼亚学家发现了完整的字母表。1948 年，在建造水力发电厂时，挖掘出一座 6 世纪早期的基督教寺庙，上面有真实的铭文。1996 年，西奈抄本被发现，这本圣经是用阿尔巴尼亚语写的，然后被擦除并用格鲁吉亚语写成。它有助于破译，第一个是在 2008 年。 </p>
+     </transl>
     </text>
    </group>
    <group id="Ahom">
@@ -5083,7 +5080,7 @@
     </text>
     <text id="Text">
      <orig>Tais who settled in the Brahmaputra river valley created a script based on Indic abugida. By 19th century the language was finally supplanted with Assamese with [[ps:Beng|Bengali]] script. Revived since 1954, decimal numbers without historical justification were added to the script. Tonal system of Tai-Ahom is entirely lost{{-}}script did{{_}}not{{_}}convey it.</orig>
-     <transl>定居在布拉马普特拉河流域的泰族人创造了一个基于印度音节文字的脚本。到19世纪，语言最终被阿萨姆语和[[ps:Beng|孟加拉]]字母所取代。自1954年起开始复兴，添加了一些没有历史依据的十进制数字到脚本中。泰-阿洪姆语的声调系统已经完全丢失——脚本并未表达它。</transl>
+     <transl>定居在布拉马普特拉河流域的泰族人创造了一个基于印度音节文字的书写系统。到19世纪，语言最终被阿萨姆语和[[ps:Beng|孟加拉]]字母所取代。自1954年起开始复兴，添加了一些没有历史依据的十进制数字到书写系统中。泰-阿洪姆语的声调系统已经完全丢失——文字并未表达它。</transl>
     </text>
    </group>
    <group id="Arab">
@@ -5102,7 +5099,7 @@
       <p>Computer Arabic is complicated with the writing of Arabic letters: each has isolated, initial, medial and final forms. In normal text “[[pt:character|general-form]]” letters adapting to position in the word are preferred. But if you need the final form in an isolated letter, Unicode has “rigid” variants.</p>
      </orig>
      <transl>
-      <p>该脚本由[[ps:Armi|阿拉姆]]通过[[ps:Syrc|叙利亚]]和/或[[ps:Nbat|纳巴泰]]发展而来。阿拉伯语与伊斯兰教紧密相关；《古兰经》（610–632）就是用这种语言书写的。古兰经的抄写员们确定了最终的字母表。阿拉伯哈里发帝国同时强制推行伊斯兰教和该脚本。许多伊斯兰民族（如土耳其人、哈萨克人、巴什基尔人）直到20世纪初都在使用阿拉伯字母。</p>
+      <p>该文字由[[ps:Armi|阿拉姆]]通过[[ps:Syrc|叙利亚]]和/或[[ps:Nbat|纳巴泰]]发展而来。阿拉伯语与伊斯兰教紧密相关；《古兰经》（610–632）就是用这种语言书写的。古兰经的抄写员们确定了最终的字母表。阿拉伯哈里发帝国同时强制推行伊斯兰教和该文字。许多伊斯兰民族（如土耳其人、哈萨克人、巴什基尔人）直到20世纪初都在使用阿拉伯字母。</p>
       <p />
       <p>计算机上的阿拉伯文由于阿拉伯字母的书写方式变得复杂：每个字母都有独立、开头、中间和结尾形式。在正常文本中，优先使用适应单词位置的“[[pt:character|通用形式]]”字母。但如果需要单独字母的结尾形式，Unicode提供了“固定”变体。</p>
      </transl>
@@ -5115,7 +5112,7 @@
     </text>
     <text id="Lang">
      <orig>Imperial Apamaic ''(=Official Aramaic{{-}}one of languages of Persia 500–329{{_}}BC)''</orig>
-     <transl>帝国阿帕米亚语 ''(=官方阿拉姆语{{-}}波斯的一种语言 500–329{{_}}BC)''</transl>
+     <transl>帝国阿帕米亚语 ''(=官方阿拉姆语——波斯的一种语言 500–329{{_}}BC)''</transl>
     </text>
     <text id="Text">
      <orig>
@@ -5146,7 +5143,7 @@
       <p>It is believed that Armenian literature was richer than Middle Persian (pre-Islamic) because Armenian alphabet was simpler than [[ps:Mani|Manichaean]].</p>
      </orig>
      <transl>
-      <p>该脚本由学者兼祭司梅斯罗普·马什托茨（362–440）发明。没有人知道他是否以某种字母为基础（可能是未留存下来的古代亚美尼亚字母）。字母表与亚美尼亚基督教的传播密切相关。12世纪增加了字母 {{sm|Օ}} 和 {{sm|Ֆ}}。</p>
+      <p>该文字由学者兼祭司梅斯罗普·马什托茨（362–440）发明。没有人知道他是否以某种字母为基础（可能是未留存下来的古代亚美尼亚字母）。字母表与亚美尼亚基督教的传播密切相关。12世纪增加了字母 {{sm|Օ}} 和 {{sm|Ֆ}}。</p>
       <p />
       <p>普遍认为亚美尼亚文学比中古波斯（伊斯兰前）更丰富，因为亚美尼亚字母比[[ps:Mani|摩尼]]字母更简单。</p>
      </transl>
@@ -5174,7 +5171,7 @@
       <p />
       <p>在阿拉伯统治下，祆教徒开始移居印度，并自12世纪以来用当地音节文字书写阿维斯塔，传统上使用[[ps:Gujr|古吉拉特]]文。其中最著名的祆教徒是弗雷迪·默丘里（但他的父母移民到了桑给巴尔）。</p>
       <p />
-      <p>2000年，古代文字被分为五个类别：A类（现代使用中{{-}}[[ps:Copt|科普特文]], [[ps:Runr|卢恩文]]），B1类（已研究[[pt:character|可编码]]{{-}}[[ps:Xpeo|波斯楔形文]]），B2类（已研究不可编码{{-}}[[ps:Egyp|埃及象形文]]），C1类（非系统性，业余爱好者请求{{-}}[[ps:Xsux|苏美尔楔形文]]），和C2类（未探索，业余爱好者请求{{-}}[[pk:101D0|费斯托斯圆盘]]）。阿维斯塔文属于最重要的A类，这给了它一个进入[[pt:bmp|基本多文种平面]]的机会。但另一种观点占了上风：将阿维斯塔文和[[ps:Phlp|帕拉维文]]相邻编码，在辅助平面上。为未编码的书帕提文留出了空位。</p>
+      <p>2000年，古代文字被分为五个类别：A类（现代使用中——[[ps:Copt|科普特文]], [[ps:Runr|卢恩文]]），B1类（已研究[[pt:character|可编码]]——[[ps:Xpeo|波斯楔形文]]），B2类（已研究不可编码——[[ps:Egyp|埃及象形文]]），C1类（非系统性，业余爱好者请求——[[ps:Xsux|苏美尔楔形文]]），和C2类（未探索，业余爱好者请求——[[pk:101D0|费斯托斯圆盘]]）。阿维斯塔文属于最重要的A类，这给了它一个进入[[pt:bmp|基本多文种平面]]的机会。但另一种观点占了上风：将阿维斯塔文和[[ps:Phlp|帕拉维文]]相邻编码，在辅助平面上。为未编码的书帕提文留出了空位。</p>
      </transl>
     </text>
    </group>
@@ -5446,7 +5443,7 @@
      <transl>
       <p>布吉文，或龙他拉文是源自[[ps:Brah|婆罗米文]]经由[[ps:Kawi|卡维文]]演变而来的文字，其运作方式类似。自荷兰殖民以来，逐渐被[[ps:Latn|拉丁文]]取代。“龙他拉”的名称来源于当地的一种棕榈树，布吉人曾用其叶子写字。</p>
       <p />
-      <p>固有元音是{{t|a}}：{{sm|ᨀ}}=ka, {{sm|ᨀᨚ}}=ko。初始元音附加到字母{{sm|ᨕ}}上：{{sm|ᨕᨚ}}=o。[[pt:BOM = 字节顺序标记|BOM = 字节顺序标记]]不存在：最常用的辅音连字是单独的字母，其余的则{{_}}不书写。Lontara的这一缺陷甚至被用作谜题：正确解读双关语并发现隐藏的含义。一些古文字专家使用BOM = 字节顺序标记。</p>
+      <p>固有元音是{{t|a}}：{{sm|ᨀ}}=ka, {{sm|ᨀᨚ}}=ko。初始元音附加到字母{{sm|ᨕ}}上：{{sm|ᨕᨚ}}=o。[[pt:BOM = 字节顺序标记|BOM = 字节顺序标记]]不存在：最常用的辅音连字是单独的字母，其余的则不书写。Lontara的这一缺陷甚至被用作谜题：正确解读双关语并发现隐藏的含义。一些古文字专家使用BOM = 字节顺序标记。</p>
      </transl>
     </text>
    </group>
@@ -5522,7 +5519,7 @@
      <transl>
       <p>从公元前7世纪到公元前1世纪使用。存在许多字母变体。在安纳托利亚，书写习惯是从左至右，而在埃及的雇佣军则采用从右至左的方式。</p>
       <p />
-      <p>然后苏联科学家Vitaly Shevoroshkin在1960年证明了该文字是字母文字，而非{{_}}音节文字。解读的关键书籍（Ignasi-Xavier Adiego）于1993年出版。1996年发现的一篇双语铭文（[[ps:Grek|希腊]]）证实了他的正确性。仍有部分字符尚未被识别。</p>
+      <p>然后苏联科学家Vitaly Shevoroshkin在1960年证明了该文字是字母文字，而非音节文字。解读的关键书籍（Ignasi-Xavier Adiego）于1993年出版。1996年发现的一篇双语铭文（[[ps:Grek|希腊]]）证实了他的正确性。仍有部分字符尚未被识别。</p>
      </transl>
     </text>
    </group>
@@ -5591,7 +5588,7 @@
      <transl>
       <p>未来的酋长Sequoia，切罗基文字的发明者，虽然不识字，但他从现有书籍中选取字符——所以这些字母在原型语言中的意义不同。例如，元音{{t|i}}用字母{{sm|Ꭲ}}表示。</p>
       <p />
-      <p>他的第一个学生是他六岁的女儿Ayoka。文字的发明最初受到了怀疑，人们认为他是被附身的，但Sequoia和Ayoka通过阅读彼此的笔记成功地完成了测试。这种文字很快在部落中传播开来，到1830年，大约{{%|90}}%的切罗基人都能够读写。</p>
+      <p>他的第一个学生是他六岁的女儿Ayoka。文字的发明最初受到了怀疑，人们认为他是被附身的，但Sequoia和Ayoka通过阅读彼此的笔记成功地完成了测试。这种文字很快在部落中传播开来，到1830年，大约90%的切罗基人都能够读写。</p>
       <p />
       <p>自1828年起，Sequoia参与了与美国关于切罗基土地的谈判。</p>
      </transl>
@@ -5635,9 +5632,9 @@
       <p>Three Aramaic letters of 22{{-}}''teth, sadhe, qoph''{{-}}have no Chorasmian counterparts. Two letters have variants, 21 letters in total. In most inscriptions, letters are not{{_}}joined, less frequently joined if shape permits.</p>
      </orig>
      <transl>
-      <p>这种语言在阿姆河附近的花剌子模地区一直使用到13世纪，逐渐被波斯语取代。科学家Biruni和神学家Zamakhshari都讲这种语言{{-}}但在公元8世纪，源自[[ps:Armi|阿拉米]]的文字被[[ps:Arab|阿拉伯]]文字所取代。</p>
+      <p>这种语言在阿姆河附近的花剌子模地区一直使用到13世纪，逐渐被波斯语取代。科学家Biruni和神学家Zamakhshari都讲这种语言——但在公元8世纪，源自[[ps:Armi|阿拉米]]的文字被[[ps:Arab|阿拉伯]]文字所取代。</p>
       <p />
-      <p>在22个阿拉米字母中，有三个字母——''teth, sadhe, qoph''——在花剌子模语中没有对应字母。有两个字母有变体，总共21个字母。在大多数铭文中，字母不{{_}}连接，如果形状允许，则较少情况下会连接。</p>
+      <p>在22个阿拉米字母中，有三个字母——''teth, sadhe, qoph''——在花剌子模语中没有对应字母。有两个字母有变体，总共21个字母。在大多数铭文中，字母不连接，如果形状允许，则较少情况下会连接。</p>
      </transl>
     </text>
    </group>
@@ -5685,7 +5682,7 @@
       <p>The image on the icon is authentic, font is based on Michael Everson’s tracings (2020).</p>
      </orig>
      <transl>
-      <p>据推测来源于[[ps:Lina|线形文字A]]。大约在公元前11世纪{{_}}转变为[[ps:Cprt|塞浦路斯]]文字。在塞浦路斯和巴勒斯坦发现了铭文。</p>
+      <p>据推测来源于[[ps:Lina|线形文字A]]。大约在公元前11世纪转变为[[ps:Cprt|塞浦路斯]]文字。在塞浦路斯和巴勒斯坦发现了铭文。</p>
       <p />
       <p>学者们对大约30个字符达成了共识，但完全破译的可能性不大：仅有250份铭文，共包含2,500个字符。相比之下，未破译的线形文字A有7,000个字符，而[[ps:Linb|线形文字B]]在破译时已有30,000个字符。</p>
       <p />
@@ -5709,7 +5706,7 @@
       <p>Partly deciphered in 1871 through newly-found bilingual with [[ps:Phnx|Phoenician]], and completely before 1876.</p>
      </orig>
      <transl>
-      <p>通过[[ps:Lina|线形文字A]]经由[[ps:Cpmn|塞浦路斯-米诺安文字]]发展而来（不要{{_}}混淆！）。从公元前11世纪到公元前3世纪使用。公元前9—8世纪的铭文未找到，之后文字分为两支：帕福斯分支保留了→方向，而普通塞浦路斯分支转向←。</p>
+      <p>通过[[ps:Lina|线形文字A]]经由[[ps:Cpmn|塞浦路斯-米诺安文字]]发展而来（不要混淆！）。从公元前11世纪到公元前3世纪使用。公元前9—8世纪的铭文未找到，之后文字分为两支：帕福斯分支保留了→方向，而普通塞浦路斯分支转向←。</p>
       <p />
       <p>1871年通过对新发现的双语文本（[[ps:Phnx|腓尼基]]）部分破译，并在1876年前完全破译。</p>
      </transl>
@@ -5800,11 +5797,11 @@
       <p>: sa + halanta + ṭa + halanta + na = súṭúna {{sm|𑤬𑤽𑤖𑤽𑤟}}</p>
      </orig>
      <transl>
-      <p>在马尔代夫由[[ps:Gran|Grantha]]发展而来，并一直使用到18世纪，在一些岛屿上甚至使用到20世纪。早期形式（12世纪前）学者称为''Evela Akuru''（回溯命名，不是{{_}}自称！）。随着伊斯兰教的采纳，“Evela”转化为“Dives”，仍然保持从左至右的书写方向。18世纪初，根据苏丹的法令，它被[[ps:Thaa|塔那]]（现在从右至左）取代。</p>
+      <p>在马尔代夫由[[ps:Gran|Grantha]]发展而来，并一直使用到18世纪，在一些岛屿上甚至使用到20世纪。早期形式（12世纪前）学者称为''Evela Akuru''（回溯命名，不是自称！）。随着伊斯兰教的采纳，“Evela”转化为“Dives”，仍然保持从左至右的书写方向。18世纪初，根据苏丹的法令，它被[[ps:Thaa|塔那]]（现在从右至左）取代。</p>
       <p />
       <p>古老的马尔代夫语拥有丰富的音素和字母变体：同一文档中，初始元音既可作为独立字母也可作为U+11925上的标记出现。“Dives”文字保留了后者的形式，去除了腭音和送气辅音。</p>
       <p />
-      <p>固有元音是{{t|a}}，用元音[[pt:combining|组合标记]]替换其他元音，单词末尾用[[pt:BOM = 字节顺序标记|BOM = 字节顺序标记]]标志''(halanta)''移除。在单词中间，BOM = 字节顺序标记意味着“u”元音的交替发音。另一个BOM = 字节顺序标记纯粹是虚拟的，用于辅音连缀{{-}}两个字母只是简单地粘在一起（也有13种[[pt:ligature|连写]]，比如“sta”）。</p>
+      <p>固有元音是{{t|a}}，用元音[[pt:combining|组合标记]]替换其他元音，单词末尾用[[pt:BOM = 字节顺序标记|BOM = 字节顺序标记]]标志''(halanta)''移除。在单词中间，BOM = 字节顺序标记意味着“u”元音的交替发音。另一个BOM = 字节顺序标记纯粹是虚拟的，用于辅音连缀——两个字母只是简单地粘在一起（也有13种[[pt:ligature|连写]]，比如“sta”）。</p>
       <p>: ka {{sm|𑤌}} + i {{sm|◌𑤱}} = ki {{sm|𑤌𑤱}}</p>
       <p>: ka {{sm|𑤌}} + halanta {{sm|◌𑤽}} = k {{sm|𑤌𑤽}}</p>
       <p>: ka {{sm|𑤌}} + BOM = 字节顺序标记 {{sm|◌𑤾}} + ta {{sm|𑤛}} = kta {{sm|𑤌𑤾𑤛}}</p>
@@ -5869,7 +5866,7 @@
       <p />
       <p>四本书用新字母出版。当杨意识到整个图书馆的出版成本有多高时，实验停止了。</p>
       <p />
-      <p>1997年，该字母表被编码到[[pt:private|Con脚本 Unicode注册表]]中。2001年移除，因为Deseret出现在真正的Unicode中。</p>
+      <p>1997年，该字母表被编码到[[pt:private|人造文字（非官方）Unicode编码注册系统]]中。2001年移除，因为Deseret出现在真正的Unicode中。</p>
      </transl>
     </text>
    </group>
@@ -5929,11 +5926,11 @@
       <p />
       <p>书写大多是从右至左，有时是从左至右或从上至下。人物和动物总是面向行的开头。由于学者们为了方便通常镜像文本，因此编码为从左至右的文字。</p>
       <p />
-      <p>除了象形文字外，还有两种未编码的脚本：</p>
-      <p>* 圣书体（“神圣”）脚本——大大简化了象形文字；用于书籍和商业文件；</p>
-      <p>* 民众体（“人民的”）脚本——出现于公元前7世纪，更多字母字符；先是信件和商业文件，后来是书籍。</p>
+      <p>除了象形文字外，还有两种未编码的文字：</p>
+      <p>* 圣书体（“神圣”）文字——大大简化了象形文字；用于书籍和商业文件；</p>
+      <p>* 民众体（“人民的”）文字——出现于公元前7世纪，更多字母字符；先是信件和商业文件，后来是书籍。</p>
       <p />
-      <p>但我们最了解象形文字，因为它们很好地保存在石头上。尽管民众体扩展，象形文字仍在使用，但理解复杂脚本的人数不断减少。随着基督教的到来，象形文字最终被放弃，最后的铭文日期为公元394年。</p>
+      <p>但我们最了解象形文字，因为它们很好地保存在石头上。尽管民众体扩展，象形文字仍在使用，但理解复杂文字的人数不断减少。随着基督教的到来，象形文字最终被放弃，最后的铭文日期为公元394年。</p>
       <p />
       <p>通过使用带有[[ps:Grek|希腊]]双语文本和[[ps:Copt|科普特]]的知识，让-弗朗索瓦·商博良在1820年代成功解读了名字，然后是文本，不久后去世。他的作品在1860年代得到验证，远在他去世之后。</p>
       <p />
@@ -6424,7 +6421,7 @@
     </text>
     <text id="Lang">
      <orig>Hanunó’o {{nspk}} and other peoples of Mindoro Island, Philippines</orig>
-     <transl>汉诺努语 {{nspk}} 和 其他 peoples of 菲律宾民都洛岛</transl>
+     <transl>汉诺努语 {{nspk}} 和其他 peoples of 菲律宾民都洛岛</transl>
     </text>
     <text id="Text">
      <orig>
@@ -6663,7 +6660,7 @@
      <transl>
       <p>古老的意大利字母是从[[ps:Phnx|腓尼基]]和早期的[[ps:Grek|希腊]]发展而来的，后来演变为[[ps:Latn|拉丁]]。</p>
       <p />
-      <p>Unicode 并{{_}}不{{_}}区分意大利的语言，将它们{{-}}统一到一个区块中，既支持从左到右也支持从右到左书写。</p>
+      <p>Unicode 并不区分意大利的语言，将它们——统一到一个区块中，既支持从左到右也支持从右到左书写。</p>
      </transl>
     </text>
    </group>
@@ -6697,9 +6694,9 @@
       <p>Kayah Li is an alphabet of refugees in many ways: in Thai refugee camps {{%|90}} of inhabitants are Karens that fled from atrociries of Myanmar military, and in near-prison conditions everything that unites is important. Karens are diverse group of peoples that includes Red, Black, White and others, by colour of national costume. Besides Kayah Li, their languages are written with [[ps:Thai|Thai]], Latin and [[ps:Mymr|Maynmar]].</p>
      </orig>
      <transl>
-      <p>克耶利来自[[ps:Brah|婆罗米]], 由Htae Bu Phae于1962年创建以回应[[ps:Latn|拉丁]]的传播——但字母没有固有的元音，因此不是一种{{_}}[[pt:abugida|音节表记法]]。四个元音作为独立字母书写，其余则作为{{sm|ꤢ}}上方的变音符号。借词中的少数几个元音则写在{{sm|ꤣ}}上方。</p>
+      <p>克耶利来自[[ps:Brah|婆罗米]], 由Htae Bu Phae于1962年创建以回应[[ps:Latn|拉丁]]的传播——但字母没有固有的元音，因此不是一种[[pt:abugida|音节表记法]]。四个元音作为独立字母书写，其余则作为{{sm|ꤢ}}上方的变音符号。借词中的少数几个元音则写在{{sm|ꤣ}}上方。</p>
       <p />
-      <p>克耶利是一种难民用的文字：在泰国的难民营中，{{%|90}}%的居民是为逃避缅甸军方暴行而逃离的卡伦人，在接近囚禁的条件下，一切团结起来的东西都显得尤为重要。卡伦人是一群多样的民族群体，根据民族服装的颜色分为红色、黑色、白色等。除了克耶利之外，他们的语言还使用[[ps:Thai|泰文]]、拉丁文和[[ps:Mymr|缅甸文]]书写。</p>
+      <p>克耶利是一种难民用的文字：在泰国的难民营中，90%的居民是为逃避缅甸军方暴行而逃离的卡伦人，在接近囚禁的条件下，一切团结起来的东西都显得尤为重要。卡伦人是一群多样的民族群体，根据民族服装的颜色分为红色、黑色、白色等。除了克耶利之外，他们的语言还使用[[ps:Thai|泰文]]、拉丁文和[[ps:Mymr|缅甸文]]书写。</p>
      </transl>
     </text>
    </group>
@@ -6858,11 +6855,11 @@
       <p>The last square looking like [[pt:tofu|tofu]] is unreadable character. It forms blocks like the rest Khitan characters.</p>
      </orig>
      <transl>
-      <p>辽朝（中国东北）时期使用。约925年由学者耶律迭剌发明，基于[[ps:Ougr|回鹘文]]。单词最多由七个字符组成的块写出。截至1987年，已知的378个字符中有125个是意符，115个是语音的，其余{{_}}尚未{{_}}解密。</p>
+      <p>辽朝（中国东北）时期使用。约925年由学者耶律迭剌发明，基于[[ps:Ougr|回鹘文]]。单词最多由七个字符组成的块写出。截至1987年，已知的378个字符中有125个是意符，115个是语音的，其余尚未解密。</p>
       <p />
       <p>大小两种文字并行使用，小字较为简单（大字完全是意符）。契丹书籍没有留存下来，只有实用物品和贵族墓碑上的铭文保留至今，最后一批大约在1200年。1216年，契丹人最终被蒙古人和中国人击败。</p>
       <p />
-      <p>许多字体将契丹文本逆时针旋转90°。此字体显示象形文字直立，如书《Daniel Kane. The Kitan Language 和 脚本》所示。由于版权问题，图标展示的是契丹青铜镜上的一个字符（由景永石教授追踪），而字体是谷歌现代斜体组装的。</p>
+      <p>许多字体将契丹文本逆时针旋转90°。此字体显示象形文字直立，如书《Daniel Kane. The Kitan Language and Sript》所示。由于版权问题，图标展示的是契丹青铜镜上的一个字符（由景永石教授追踪），而字体是谷歌现代斜体组装的。</p>
       <p />
       <p>最后一个正方形像是[[pt:tofu|豆腐]]，是一个不可读的字符。它与其他契丹字符一起形成块状。</p>
      </transl>
@@ -6916,7 +6913,7 @@
      <transl>
       <p>由Mahaguru Tika Ram Rai根据与[[ps:Deva|天城文]]相近的地方文字创造。1995年，印度锡金邦承认Bantawa（以其名称“Rai”命名，尽管这是一个更广泛的民族群体，“Kirat”更为广泛），并将Kirat定为官方文字。</p>
       <p />
-      <p>虽然它是婆罗米派生的音节文字，但它没有[[pt:ligature|连字]]，标记上的标记以及其他复杂渲染，所有字符都是普通的[[pt:spacing|间距字符]]。句号符号“d和a”倾斜以区别于{{t|ā}}，所以该脚本使用自己的句号而不是天城文中的通用印度符号。</p>
+      <p>虽然它是婆罗米派生的音节文字，但它没有[[pt:ligature|连字]]，标记上的标记以及其他复杂渲染，所有字符都是普通的[[pt:spacing|间距字符]]。句号符号“d和a”倾斜以区别于{{t|ā}}，所以该文字使用自己的句号而不是天城文中的通用印度符号。</p>
      </transl>
     </text>
    </group>
@@ -6949,7 +6946,7 @@
     </text>
     <text id="Lang">
      <orig>Yuan (=Northern Tai, =Lanna), Tai Lü, Khün, all{{-}}Thailand</orig>
-     <transl>Yuan (=北方泰语, =兰纳), 泰族, 楚恩族, 全部{{-}}泰国</transl>
+     <transl>Yuan (=北方泰语, =兰纳), 泰族, 楚恩族, 全部——泰国</transl>
     </text>
     <text id="Text">
      <orig>
@@ -7073,7 +7070,7 @@
       <p />
       <p>固有元音是{{t|ɔ}}。</p>
       <p />
-      <p>初始元音没有特殊形状，而是与类似尼泊尔国旗的“零”辅音{{sm|ᤀ}}一起书写。要得到三个音素的音节，先加上元音标记，然后是最终辅音：{{sm|ᤐᤳᤗᤥ}} {{t|pɔtlo}}。下划线状的[[pt:BOM = 字节顺序标记|消声符号]]用于外来词中没有最终形式的字母，有时也用于长元音音节{{sm|ᤁᤁ᤻}} {{t|kɔ:k}}。</p>
+      <p>初始元音没有特殊形状，而是与类似尼泊尔国旗的“零”辅音{{sm|ᤀ}}一起书写。要得到三个音素的音节，先加上元音标记，然后是最终辅音：{{sm|ᤐᤳᤗᤥ}} {{t|pɔtlo}}。下划线状的[[pt:BOM = virama|消声符号]]用于外来词中没有最终形式的字母，有时也用于长元音音节{{sm|ᤁᤁ᤻}} {{t|kɔ:k}}。</p>
      </transl>
     </text>
    </group>
@@ -7142,7 +7139,7 @@
      </orig>
      <au-cmt>In Russian: Sara Ba Thaw = Сара Ба Тау</au-cmt>
      <transl>
-      <p>这种字母是由缅甸传教士Sara Ba Thaw和英国传教士James Fraser发明的。它由大写的[[ps:Latn|拉丁]]字母组成，既有直立的也有旋转的。没有小写字母。由于传教士的努力，约有{{%|40}}%的傈僳人是新教徒。中国在1992年承认了这种文字。</p>
+      <p>这种字母是由缅甸传教士Sara Ba Thaw和英国传教士James Fraser发明的。它由大写的[[ps:Latn|拉丁]]字母组成，既有直立的也有旋转的。没有小写字母。由于传教士的努力，约有40%的傈僳人是新教徒。中国在1992年承认了这种文字。</p>
       <p />
       <p>还有其他尝试教授傈僳人书写的方法：类似[[ps:Hani|汉字]]的音节文字（约1925年），基于拼音的拉丁文（1957年），[[ps:Plrd|波拉德字母]]（苗族）和基于[[ps:Mymr|缅甸文]]的文字。</p>
      </transl>
@@ -7389,7 +7386,7 @@
       <p>More than 2000 inscripitons exist. The alphabet was deciphered in early 20th century via Meroitic pronunciation of Egyptian names. But the language is still unclear.</p>
      </orig>
      <transl>
-      <p>麦罗埃文字在努比亚和苏丹用于书写当地语言直到7世纪。有两种形式：象形文字和草体。象形文字形式源于[[ps:Egyp|埃及象形文字]]，从右向左列写；只有刻在纪念碑上的铭文已知。草体衍生自世俗体文字，从右向左书写，占所有铭文的{{%|90}}。</p>
+      <p>麦罗埃文字在努比亚和苏丹用于书写当地语言直到7世纪。有两种形式：象形文字和草体。象形文字形式源于[[ps:Egyp|埃及象形文字]]，从右向左列写；只有刻在纪念碑上的铭文已知。草体衍生自世俗体文字，从右向左书写，占所有铭文的90%。</p>
       <p />
       <p>现存超过2000条铭文。字母表在20世纪初通过麦罗埃对埃及名字的发音被破译。但语言本身仍然不清楚。</p>
      </transl>
@@ -7445,7 +7442,7 @@
       <p>: ka {{sm|ക}} + virama {{sm|◌്}} + ka {{sm|ക}} = kka {{sm|ക്ക}}</p>
       <p>: ka {{sm|ക}} + virama {{sm|◌്}} + rа {{sm|ര}} = kra {{sm|ക്ര}}</p>
       <p />
-      <p>''Chillu''字母带有内置的消声符号，其中一些起源于不同的字母：例如，L{{-}}来自字母“ta”。五个（NN, N, R, LL, LL）在现代使用，四个（K, M, Y, LLL）是[[pt:obsolete|过时的]]。</p>
+      <p>''Chillu''字母带有内置的消声符号，其中一些起源于不同的字母：例如，L——来自字母“ta”。五个（NN, N, R, LL, LL）在现代使用，四个（K, M, Y, LLL）是[[pt:obsolete|过时的]]。</p>
       <p />
       <p>拼写改革很少被接受；日常生活写作和电影海报继续使用旧正字法。预Unicode字体进一步推广了新正字法。微软、苹果和谷歌制作了新正字法的Unicode字体，但本地供应商也在使用旧正字法。自2010年代末以来，印刷媒体开始回归旧正字法。2022年部分改革被撤销，增加了更多下标。''Unicodia''使用谷歌的字体。</p>
      </transl>
@@ -7553,7 +7550,7 @@
      <transl>
       <p>大多数Mro人是佛教徒，而孟加拉国作为伊斯兰国家，当局并不想支持他们。</p>
       <p />
-      <p>Mro文字由Krama宗教创始人Menlay Murang在20世纪80年代发明。到了21世纪初，Murang字母变得流行甚至超过了之前的[[ps:Latn|拉丁]]文字：超过{{%|80}}%的Mro人能够读写这种文字。此外，现有的拉丁文字难以准确表达Mro语音。</p>
+      <p>Mro文字由Krama宗教创始人Menlay Murang在20世纪80年代发明。到了21世纪初，Murang字母变得流行甚至超过了之前的[[ps:Latn|拉丁]]文字：超过80%的Mro人能够读写这种文字。此外，现有的拉丁文字难以准确表达Mro语音。</p>
       <p />
       <p>没有技术上的困难：从左到右书写，没有[[pt:format|格式]]字符和[[pt:combining|组合标记]]，[[pt:abc|字母顺序]]与编码相对应，换行规则是标准的。标点符号采用欧洲风格，并增加了当地的“danda”栏版本。</p>
      </transl>
@@ -7579,7 +7576,7 @@
      <transl>
       <p>普遍认为该文字起源于11世纪。18世纪采用了[[ps:Beng|孟加拉]]文字。20世纪30年代该文字复兴，1976年调整为现代语音学。</p>
       <p />
-      <p>字母以身体部位命名：第一个是“kok”（头）。内在元音是{{t|ə}}。[[pt:BOM = 字节顺序标记|BOM = 字节顺序标记]]完全是虚拟的，用于组装古老的[[pt:ligature|连字]]：单个辅音用缩小的字母表示。</p>
+      <p>字母以身体部位命名：第一个是“kok”（头）。内在元音是{{t|ə}}。[[pt:virama|字节顺序标记]]完全是虚拟的，用于组装古老的[[pt:ligature|连字]]：单个辅音用缩小的字母表示。</p>
       <p>: kə {{sm|ꯀ}} + i {{sm|◌ꯤ}} = ki {{sm|ꯀꯤ}}</p>
       <p>: k {{sm|ꯛ}}</p>
      </transl>
@@ -7651,7 +7648,7 @@
       <p>Digits are own. Punctuation is European.</p>
      </orig>
      <transl>
-      <p>非书面南亚-亚洲（不是印欧语系）语言。根据2011年人口普查，印度有1.1{{_}}百万人讲蒙达里，还有50万更多人讲某种''蒙达''——不清楚是否是同一语言。</p>
+      <p>非书面南亚-亚洲（不是印欧语系）语言。根据2011年人口普查，印度有110万人讲蒙达里，还有50万更多人讲某种''蒙达''——不清楚是否是同一语言。</p>
       <p />
       <p>书写系统有[[ps:Orya|奥里亚]], [[ps:Deva|天城文]], [[ps:Beng|孟加拉]]，[[ps:Latn|拉丁]]——但对于拉丁字母来说音素很奇特，且阿布吉达不适合南亚-亚洲语言。难怪Rohidas Singh Nag在1949年发明了一种新的字母表，并且这种字母表甚至扎根。大约在1982年，他将字母表缩短到27个字符并向当地当局展示，并在2008年进行了改革。</p>
       <p />
@@ -7679,7 +7676,7 @@
       <p>Digits resemble [[ps:Knda|Kannada]] (there are differences in 2 and 6) and [[pt:unification|unified]] with it.</p>
      </orig>
      <transl>
-      <p>源自那加里，是印度文字的一种中间形式。与[[ps:Deva|天城文]]是姊妹文字，“南丁那加里”意为“来自神圣城市”。如果不是因为不同的{{-}}断头横线，其他的[[pt:ligature|连字]]和数字{{-}}南丁可能是天城文的一个变种。该文字使用到19世纪为止。内在元音是{{t|a}}，可以被替换为元音[[pt:combining|标记]]。所有标记，包括[[pt:virama|维拉玛]], 都附着在字母上。维拉玛仅用于转换梵语：卡纳达语偏好开放音节，而罕见的辅音组合则通过连字表示。</p>
+      <p>源自那加里，是印度文字的一种中间形式。与[[ps:Deva|天城文]]是姊妹文字，“南丁那加里”意为“来自神圣城市”。如果不是因为不同的——断头横线，其他的[[pt:ligature|连字]]和数字——南丁可能是天城文的一个变种。该文字使用到19世纪为止。内在元音是{{t|a}}，可以被替换为元音[[pt:combining|标记]]。所有标记，包括[[pt:virama|维拉玛]], 都附着在字母上。维拉玛仅用于转换梵语：卡纳达语偏好开放音节，而罕见的辅音组合则通过连字表示。</p>
       <p />
       <p>: ka {{sm|𑦮}} + u {{sm|◌𑧔}} = ku {{sm|𑦮𑧔}}</p>
       <p />
@@ -7803,7 +7800,7 @@
      <transl>
       <p>女书存在了几百年，并被用作女性的文字：男性接受[[ps:Hani|识字教育]]，而女性使用更简单的音节文字。与广泛的象形文字不同，女书是用细长的笔画写成的。许多女书样本都是''第三天信件''：女孩离开家乡去另一个村庄结婚，她的姐妹和朋友会绣上祝福给她，通常以诗歌形式。</p>
       <p />
-      <p>尽管有普遍的误解，女书并不是一种{{_}}密码；男性只是认为它是“低等”的文字。第一个已知的样本制作于20世纪初，但字符形状表明女书早在1300年就已经存在。</p>
+      <p>尽管有普遍的误解，女书并不是一种密码；男性只是认为它是“低等”的文字。第一个已知的样本制作于20世纪初，但字符形状表明女书早在1300年就已经存在。</p>
       <p />
       <p>与类似用途的日语[[ps:Hira|平假名]]不同，女书一直未成为官方文字。20世纪的扫盲运动和缝纫机的普及导致女书逐渐衰退。日本侵略者视女书为密码并禁止其使用，而在文化大革命期间，红卫兵摧毁了包括绣品在内的古董。</p>
       <p />
@@ -7831,7 +7828,7 @@
       <p>Ogham space is the only space in Unicode that draws something. Otherwise it’s a normal space, and you can wrap along it.</p>
      </orig>
      <transl>
-      <p>Ogham字母表在4至10世纪由爱尔兰和不列颠的古代凯尔特人和皮克特人使用。与此同时也在使用[[ps:Latn|拉丁文]]，因此有人认为这是一种隐写术（隐蔽书写）。该脚本设计用于木板和棍棒上的刻痕。铭文开始于{{sm|᚛}}结束于{{sm|᚜}}。</p>
+      <p>Ogham字母表在4至10世纪由爱尔兰和不列颠的古代凯尔特人和皮克特人使用。与此同时也在使用[[ps:Latn|拉丁文]]，因此有人认为这是一种隐写术（隐蔽书写）。该文字设计用于木板和棍棒上的刻痕。铭文开始于{{sm|᚛}}结束于{{sm|᚜}}。</p>
       <p />
       <p>Ogham空格是Unicode中唯一绘制出东西的空格。除此之外它就是一个正常的空格，你可以沿着它换行。</p>
      </transl>
@@ -7940,7 +7937,7 @@
      <transl>
       <p>奥里亚语（传统上但不准确地认为与“雅利安人”有关）是从断顶线的[[ps:Sidd|悉昙体]]演变而来，经过高迪体（也是“原[[ps:Beng|孟加拉语]]”，“原奥里亚语”）。</p>
       <p />
-      <p>普遍认为，字母呈圆形是因为书写在棕榈叶上{{-}}为了防止叶子沿着叶脉割破，顶线变成了弧线。这个弧线比字母的主要部分大，因此字母很难区分。已知最早的叶子来自15世纪。</p>
+      <p>普遍认为，字母呈圆形是因为书写在棕榈叶上——为了防止叶子沿着叶脉割破，顶线变成了弧线。这个弧线比字母的主要部分大，因此字母很难区分。已知最早的叶子来自15世纪。</p>
       <p />
       <p>固有元音是{{t|ɔ}}，用[[pt:virama|维拉玛]]符号去除：{{sm|କ}}=kɔ，{{sm|କି}}=ki，{{sm|କ୍}}=k。在奥里亚语中，与其他印度语不同，这个元音永远不会自行去除，没有维拉玛符号。但由于多重辅音连字，维拉玛符号并不常见：{{sm|ମ+◌୍+ଭ=ମ୍ଭ}}{{_}}mbhɔ。</p>
       <p />
@@ -8163,7 +8160,7 @@
     </text>
     <text id="Lang">
      <orig>Phoenician and other Semitic (Moabite, Philistine…), Punic</orig>
-     <transl>腓尼基文 和 其他 Semitic (Moabite, Philistine…), Punic</transl>
+     <transl>腓尼基语和其他闪族语(摩押语、非利士语......)，布匿语</transl>
     </text>
     <text id="Text">
      <orig>
@@ -8185,22 +8182,22 @@
       <p>Jean-Jacques Barthélemy deciphered [[ps:Palm|Palmyrene]] in 1754, and Phoenician in 1758, also using a bilingual with Greek.</p>
      </orig>
      <transl>
-      <p>源自研究较少的原西奈文。字母名称是[[pt:头音法|头音法]]：Alef=牛，Bet=房子，Gaml=骆驼 ...  ... </p>
+      <p>源自研究较少的原西奈文。字母名称是[[pt:acrophonic|头音法]]：Alef=牛，Bet=房子，Gaml=骆驼 ...  ... </p>
       <p />
-      <p>尽管[[ps:乌加里特|乌加里特文]]而非腓尼基文是最古老的已解读辅音文字，也是最早的已知字母顺序，但腓尼基文的重要性难以估量：腓尼基人是出色的水手，将文字传播至整个古代世界。</p>
+      <p>尽管[[ps:Ugar|乌加里特文]]而非腓尼基文是最古老的已解读辅音文字，也是最早的已知字母顺序，但腓尼基文的重要性难以估量：腓尼基人是出色的水手，将文字传播至整个古代世界。</p>
       <p />
       <p>源自腓尼基文的文字：</p>
-      <p>* 安纳托利亚字母（例如，[[ps:吕西亚|吕西亚文]]——已消亡）；</p>
-      <p>* 老利比亚文（[[ps:提非纳文|提非纳文]]的前身）；</p>
+      <p>* 安纳托利亚字母（例如，[[ps:Lyci|吕西亚文]]——已消亡）；</p>
+      <p>* 老利比亚文（[[ps:Tfng|提非纳文]]的前身）；</p>
       <p>* 古西班牙文或伊比利亚文（已消亡）；</p>
-      <p>* [[ps:阿拉米文|阿拉米文]]（[[ps:叙利亚文|叙利亚文]]、[[ps:阿拉伯文|阿拉伯文]]以及根据广泛假设的[[ps:婆罗米文|婆罗米文]]的前身）；</p>
-      <p>* [[ps:希腊文|希腊文]]（[[ps:拉丁文|拉丁文]]和[[ps:西里尔文|西里尔文]]的前身）。</p>
+      <p>* [[ps:Armi|阿拉米文]]（[[ps:Syrc|叙利亚文]]、[[ps:Arab|阿拉伯文]]以及根据广泛假设的[[ps:Brah|婆罗米文]]的前身）；</p>
+      <p>* [[ps:Grek|希腊文]]（[[ps:Latn|拉丁文]]和[[ps:Cyrl|西里尔文]]的前身）。</p>
       <p />
       <p>因此，很大一部分有文字的世界都归功于腓尼基人。</p>
       <p />
       <p>大约在公元前150年左右，随着迦太基的毁灭而消失；腓尼基本身早已使用衍生文字很长时间。</p>
       <p />
-      <p>让-雅克·巴塞莱米于1754年解读了[[ps:帕尔米拉文|帕尔米拉文]]，并于1758年解读了腓尼基文，同样是使用了与希腊文的双语对照。</p>
+      <p>让-雅克·巴塞莱米于1754年解读了[[ps:Palm|帕尔米拉文]]，并于1758年解读了腓尼基文，同样是使用了与希腊文的双语对照。</p>
      </transl>
     </text>
    </group>
@@ -8221,7 +8218,7 @@
       <p>: {{sm|𖼀}} + {{sm|◌𖽝}} +{{sm|&amp;nbsp;𖾑}} = {{sm|𖼀𖽝𖾑}}</p>
      </orig>
      <transl>
-      <p>由卫理公会传教士塞缪尔·波拉德于1936年发明。基于[[ps:加拿大音节文字|加拿大音节文字]]。首次尝试编码是在1997年。由于苗语复杂的声调结构，直到2010年才完成编码。</p>
+      <p>由卫理公会传教士塞缪尔·波拉德于1936年发明。基于[[ps:Cans|加拿大音节文字]]。首次尝试编码是在1997年。由于苗语复杂的声调结构，直到2010年才完成编码。</p>
       <p />
       <p>编码方案为</p>
       <p>: {{sm|𖼀}} + {{sm|◌𖽝}} +{{sm| 𖾑}} = {{sm|𖼀𖽝𖾑}}</p>
@@ -8451,9 +8448,9 @@
       <p>The headstroke may be solid, broken or have arbitrary breaks.</p>
      </orig>
      <transl>
-      <p>夏拉达文源自古普塔文（婆罗米文[[ps:Brah|Brahmi]]的北部分支），于8至12世纪在印度西北部和阿富汗广泛传播。之后，夏拉达文越来越不适合克什米尔语，逐渐被弃用。它是古吉拉特文[[ps:Guru|Gurmukhi]]的前身。</p>
+      <p>夏拉达文源自古普塔文（婆罗米文[[ps:Brah|婆罗米文]]的北部分支），于8至12世纪在印度西北部和阿富汗广泛传播。之后，夏拉达文越来越不适合克什米尔语，逐渐被弃用。它是古吉拉特文[[ps:Guru|古吉拉特文]]的前身。</p>
       <p>目前，它被克什米尔婆罗门（伊斯兰克什米尔地区的印度教少数族群）和用梵文写作的印度佛教徒使用。</p>
-      <p>这是婆罗米系的元音附标文字，固有元音为{{t|a}}。不同于其他印度文字，【止音符|Virama】位于右侧且使用频繁。存在许多“辅音-止音符-辅音”的【连字|ligatures】。</p>
+      <p>这是婆罗米系的元音附标文字，固有元音为{{t|a}}。不同于其他印度文字，【virama|止音符】位于右侧且使用频繁。存在许多“辅音-止音符-辅音”的【ligatures|连字】。</p>
       <p>{{smtable|ka|𑆑|+ i|**◌𑆴|= ki|𑆑𑆴}}</p>
       <p>{{smtable|ka|𑆑|+ 止音符|◌𑇀|= k|𑆑𑇀}}</p>
       <p>{{smtable|ka|𑆑|+ 止音符|◌𑇀|+ ta|𑆠|= kta|*𑆑𑇀𑆠}}</p>
@@ -8487,7 +8484,7 @@
       <p>悉昙文是与佛教相关的中世纪北印度文字，由婆罗米文[[ps:Brah|Brahmi]]演变而来。它通常像中文一样用毛笔书写，单词之间没有空格。</p>
       <p>它在整个佛教东传地区传播，包括日本，但在9世纪时，中国进行了多次“驱逐外来宗教”的行动，切断了日本与大陆的联系。到1200年，悉昙文被其他文字取代，如今仅在日本佛教中保留，称为“悉昙”或“邦吉”。</p>
       <p>日本邦吉文中没有数字，而是保留了一些古老的印度数字。编码了许多宗教文本特有的标点符号和装饰符号。</p>
-      <p>【止音符|Virama】极为罕见，仅出现在单词末尾，因为多个【连字|ligatures】是从上到下书写的。</p>
+      <p>【virama|止音符】极为罕见，仅出现在单词末尾，因为多个【ligatures|连字】是从上到下书写的。</p>
       <p>{{smtable|ka|𑖎|+ i|**◌𑖰|= ki|𑖎𑖰}}</p>
       <p>{{smtable|ka|𑖎|+ 止音符|◌𑖿|= k|𑖎𑖿}}</p>
       <p>{{smtable|ka|𑖎|+ 止音符|◌𑖿|+ ta|𑖝|= kta|*𑖎𑖿𑖝}}</p>
@@ -8567,12 +8564,12 @@
      </orig>
      <transl>
       <p>与东南亚的大多数其他文字一样，僧伽罗文源自婆罗米文[[ps:Brah|Brahmi]]。书写于3世纪传入斯里兰卡，到13世纪时文字已形成。字母呈卷曲状：古代时，在棕榈叶上书写十分普遍，直线会沿着叶脉切割叶子。</p>
-      <p>固有元音为{{t|ʌ}}。有不到30个“辅音-辅音”【连字|ligatures】，它们都是显式书写的，使用U+200D{{_}}ZWJ字符。【止音符|Virama】（“去除元音”符号）在阿拉伯语中称为“al-lakuna”，且非常常见。</p>
+      <p>固有元音为{{t|ʌ}}。有不到30个“辅音-辅音”【ligatures|连字】，它们都是显式书写的，使用U+200D{{_}}ZWJ字符。【virama|止音符】（“去除元音”符号）在阿拉伯语中称为“al-lakuna”，且非常常见。</p>
       <p>: ka {{sm|ක}} + i {{sm|◌ි}} = ki {{sm|කි}}</p>
       <p>: ka {{sm|ක}} + 止音符 {{sm|◌්}} = k {{sm|ක්}}</p>
       <p>: ka {{sm|ක}} + 止音符 {{sm|◌්}} + ZWJ + va {{sm|ව}} = kva {{sm|ක්‍ව}}</p>
       <p />
-      <p>斯里兰卡人使用欧洲数字，但编码了两套数字：定位数字曾用于给棕榈叶书籍编号，至今仍用于占星术。非定位数字【pk:111E0|Others】在19世纪初消失。此外，还存在至少两种基于字母的系统。</p>
+      <p>斯里兰卡人使用欧洲数字，但编码了两套数字：定位数字曾用于给棕榈叶书籍编号，至今仍用于占星术。非定位数字【pk:111E0|其它】在19世纪初消失。此外，还存在至少两种基于字母的系统。</p>
      </transl>
     </text>
    </group>
@@ -8660,7 +8657,7 @@
       <p>这是婆罗米系的元音附标文字，固有元音为{{t|a}}，且设计独特：框架由右侧的垂直茎和上方的三角形组成。该框架包含主辅音、元音标记、尾辅音、长音标记和元音二合标记。</p>
       <p>{{smtable|ra|𑩼|+ i|◌𑩑|+ au|◌𑩘|+ 尾ℓ|◌𑪒|= riul|*𑩼𑩑𑩘𑪒}}</p>
       <p />
-      <p>【止音符|Virama】完全是虚拟的，用于辅音连写：</p>
+      <p>【virama|止音符】完全是虚拟的，用于辅音连写：</p>
       <p>{{smtable|ka|𑩜|+ 连字符|◌𑪙|+ va|𑩾|= kva|𑩜𑪙𑩾}}</p>
       <p />
       <p>其他连写使用初始辅音编码：</p>
@@ -9067,11 +9064,11 @@
      <transl>
       <p>婆罗米音节文字，有固有元音{{t|a}}和[[pt:virama|virama]]。我只写该文字的自称：{{sm|ᜊᜌ᜔ᜊᜌᜒᜈ᜔}}“ba-y-ba-yi-n”。</p>
       <p />
-      <p>西班牙传教士（16世纪）发现岛民几乎{{%|100}}识字，并开始自己教授巴耶班文。他们起初并不理解书写方向：文字刻在竹板上，刻刀朝身体外侧刻划，因此他们只能单向书写，而阅读则可以是另一个方向。</p>
+      <p>西班牙传教士（16世纪）发现岛民几乎100%识字，并开始自己教授巴耶班文。他们起初并不理解书写方向：文字刻在竹板上，刻刀朝身体外侧刻划，因此他们只能单向书写，而阅读则可以是另一个方向。</p>
       <p />
       <p>巴耶班文衰落的原因有几个：西班牙引入了纸张、钢笔和印刷术，塔加洛文在他们的影响下开始区分{{t|r/d}}、{{t|u/o}}、{{t|i/e}}。最后但并非最不重要的一点是：[[ps:Latn|拉丁文]]在日常生活中占据了一席之地，使人们能够胜任体面的办公室工作。到了19世纪，巴耶班文几乎消亡，唯一剩下的是拉丁字母的拼写。如今有人尝试复兴巴耶班文。</p>
       <p />
-      <p>2021年，新的音素{{t|r}}被编码{{-}}这两个版本都来自19世纪，而在Unicode 14之前非正式使用的那个被放在了170D的位置。还出现了第二个virama：这个叉号是西班牙人发明的，令人想起殖民历史，且在小间距下难以辨认。</p>
+      <p>2021年，新的音素{{t|r}}被编码——这两个版本都来自19世纪，而在Unicode 14之前非正式使用的那个被放在了170D的位置。还出现了第二个virama：这个叉号是西班牙人发明的，令人想起殖民历史，且在小间距下难以辨认。</p>
      </transl>
     </text>
    </group>
@@ -9230,7 +9227,7 @@
     </text>
     <text id="Lang">
      <orig>Kurukh {{nspk||=Kurux, Oraon}}</orig>
-     <transl>库鲁克 {{nspk||=Kurux, 欧拉翁}}</transl>
+     <transl>库鲁克 {{nspk||=库鲁克语, 欧拉翁}}</transl>
     </text>
     <text id="Text">
      <orig>Created by Narayan Oraon. It’s a pure alphabet without inherent vowel. The new alphabet better conveys the language than [[ps:Deva|Devanagari]], the main script for Kurukh.</orig>
@@ -9384,7 +9381,7 @@
       <p>The type is arguable: every letter has an inherent vowel {{t|a}} (some have {{t|ɔ}} or {{t|ɛ}}), like in [[pt:brahmic|Brahmic abugidas]]. It also has alphabetic features: two cases, all vowels are full rather than marks. Pronunciation is{{_}}not{{_}}always consistent: it’s unknown whether inherent vowel becomes silent (in final position it’s always silent). Read autonym {{sm|𑢹𑣗𑣁𑣜𑣊 𑣏𑣂𑣕𑣂}}: letters are pronounced by the last phoneme of name except {{sm|𑢹}}=h и {{sm|𑣗}}=b, this digraph is read {{t|w}}.</p>
      </orig>
      <transl>
-      <p>该文字由社区领袖拉科·博德拉从零开始创造。他声称这是13世纪的达万·图里通过神圣启示传给他的。该字母以“Om”字符开头——宇宙创造的第一个声音。霍语是一种没有文字的语言，大约{{%|2}}的人使用瓦朗·西蒂文书写，同样数量的人使用[[ps:Orya|奥里亚文]]书写。</p>
+      <p>该文字由社区领袖拉科·博德拉从零开始创造。他声称这是13世纪的达万·图里通过神圣启示传给他的。该字母以“Om”字符开头——宇宙创造的第一个声音。霍语是一种没有文字的语言，大约2%的人使用瓦朗·西蒂文书写，同样数量的人使用[[ps:Orya|奥里亚文]]书写。</p>
       <p />
       <p>该文字的类型存在争议：每个字母都有一个固有的元音{{t|a}}（有些字母有{{t|ɔ}}或{{t|ɛ}}），就像[[pt:brahmic|婆罗米系音素文字]]一样。它也具有字母文字的特点：有两种大小写形式，所有元音都是完整的字母而不是符号。发音并不总是一致的：尚不清楚固有的元音是否会被省略（在词尾位置时总是被省略）。读出自称{{sm|𑢹𑣗𑣁𑣜𑣊 𑣏𑣂𑣕𑣂}}：字母按名称的最后一个音素发音，除了{{sm|𑢹}}=h和{{sm|𑣗}}=b，这两个字母组合读作{{t|w}}。</p>
      </transl>
@@ -9393,7 +9390,7 @@
    <group id="Xpeo">
     <text id="Name">
      <orig>Old Persian cuneiform</orig>
-     <transl>古波斯语 楔形文字</transl>
+     <transl>古波斯语楔形文字</transl>
     </text>
     <text id="Lang">
      <orig>Old Persian</orig>
@@ -9486,7 +9483,7 @@
      <transl>
       <p>古老的（表意）彝文最早的样本可追溯到约1500年，但文字肯定比这更早。传说它在唐朝（618–907）就已存在。彝文由8000到10000个表意文字组成。</p>
       <p />
-      <p>现代音节彝文是中国政府于1974年发明的。该语言有43个辅音，8个元音和4个声调（简单、p、t和x），但并不是{{_}}所有组合都是可能的，彝文可以书写1165个音节。</p>
+      <p>现代音节彝文是中国政府于1974年发明的。该语言有43个辅音，8个元音和4个声调（简单、p、t和x），但并不是所有组合都是可能的，彝文可以书写1165个音节。</p>
      </transl>
     </text>
    </group>
@@ -9526,7 +9523,7 @@
   <group id="Snip">
    <text id="ArabPres1">
     <orig>The block is created for [[pt:convertibility|compatibility]] with old encodings like CP864 (DOS), where different codes were used for isolated, initial, medial and final letters due to [[pt:dynamic|limited]] typography engines.</orig>
-    <transl>该区块是为了与旧编码（如CP864（DOS））的[[pt:可转换性|兼容性]]而创建的，在这些编码中，由于[[pt:dynamic|有限的]]排版引擎，孤立、首字母、中间和尾字母使用了不同的代码。</transl>
+    <transl>该区块是为了与旧编码（如CP864（DOS））的[[pt:convertibility|兼容性]]而创建的，在这些编码中，由于[[pt:dynamic|有限的]]排版引擎，孤立、首字母、中间和尾字母使用了不同的代码。</transl>
    </text>
    <text id="ArabPres2">
     <orig>It’s better to avoid these characters in normal text. The only legitimate use is educational materials, so the characters have “Arabic letter” class (in many old encodings text was written left to right).</orig>
@@ -9534,7 +9531,7 @@
    </text>
    <text id="GrekCoptUni">
     <orig>In Unicode{{_}}1.0 Coptic was [[pt:unification|unified]] with Greek, and all purely Coptic letters were considered Greek too. Since Unicode{{_}}4.1 (2005) these languages were disunified: Coptic studies often contained Greek text. Moreover, only one Coptic letter has significantly different glyphs in capital and small case: {{smfunky|Ϧϧ}}.</orig>
-    <transl>在Unicode{{}}1.0中，科普特语与希腊语[[pt:unification|合并]]，所有纯粹的科普特文字母也被视为希腊字母。自Unicode{{}}4.1（2005）起，这两种语言被拆分：科普特学研究经常包含希腊文本。此外，只有一个科普特文字母在大写和小写时有明显不同的字形：{{smfunky|Ϧϧ}}。</transl>
+    <transl>在Unicode 1.0中，科普特语与希腊语[[pt:unification|合并]]，所有纯粹的科普特文字母也被视为希腊字母。自Unicode 4.1（2005）起，这两种语言被拆分：科普特学研究经常包含希腊文本。此外，只有一个科普特文字母在大写和小写时有明显不同的字形：{{smfunky|Ϧϧ}}。</transl>
    </text>
   </group>
   <group id="CharCat">
@@ -9584,7 +9581,7 @@
       <p />
       <p>* 垂直制表符0B——将滚筒转到预编程位置。这使得在现有表格上打印更快、更安静；</p>
       <p>* 移出/移入符0E/0F——其他色带颜色、其他字符集；</p>
-      <p>* 数据链路转义符10——下一个字符是[[pt:graphic|图形]]字符，而不是{{_}}控制字符；</p>
+      <p>* 数据链路转义符10——下一个字符是[[pt:graphic|图形]]字符，而不是控制字符；</p>
       <p>* 删除符7F——纠正穿孔带上的错误（所有七条轨道都被穿孔，此字符被跳过）。在某些终端中，FF字符起这个作用，这就是为什么[[ps:Cyrl|俄语]]中的“я”在文件服务器、MUD游戏中被大写字母替换。</p>
       <p />
       <p>控制类别中的所有65个字符都是历史字符。实际影响文本显示的字符被称为[[pt:format|格式]]字符。</p>
@@ -9622,7 +9619,7 @@
       <p />
       <p>* 指定书写方向：2066——将一段文本隔离为从左到右书写。</p>
       <p />
-      <p>* 执行字体无法实现的特定脚本任务：1D173——开始一组用符干连接的音符。</p>
+      <p>* 执行字体无法实现的特定文字任务：1D173——开始一组用符干连接的音符。</p>
      </transl>
     </text>
    </group>
@@ -9656,7 +9653,7 @@
     </text>
     <text id="Text">
      <orig>Characters of unicameral scripts{{-}}without capital and small letters. For example, [[ps:Hebr|Hebrew]], [[ps:Arab|Arabic]], and [[ps:Hani|CJK ideographs]]. Also special characters like masculine/feminine ordinal indicator in Romance languages (1º{{-}}first masculine, 1ª{{-}}first feminine).</orig>
-     <transl>无大小写字母的单式脚本字符{{-}}例如，[[ps:Hebr|希伯来文]]、[[ps:Arab|阿拉伯文]]和[[ps:Hani|CJK表意文字]]。还有罗曼语族中的阳性/阴性序数指示符等特殊字符（1º{{-}}第一阳性，1ª{{-}}第一阴性）。</transl>
+     <transl>无大小写字母的单式文字字符——例如，[[ps:Hebr|希伯来文]]、[[ps:Arab|阿拉伯文]]和[[ps:Hani|CJK表意文字]]。还有罗曼语族中的阳性/阴性序数指示符等特殊字符（1º{{-}}第一阳性，1ª{{-}}第一阴性）。</transl>
     </text>
    </group>
    <group id="Lt">
@@ -9667,7 +9664,7 @@
     </text>
     <text id="Text">
      <orig>Digraph characters consisting of capital and small letter. For example, Croatian Latin has digraph ǈ. Serbian counterpart Љ is not{{_}}a{{_}}digraph and thus has no mixed case.</orig>
-     <transl>由大写和小写字母组成的双字母字符。例如，克罗地亚拉丁字母有双字母ǈ。塞尔维亚语的对应字符Љ不是{{}}双字母{{}}，因此没有大小写混合形式。</transl>
+     <transl>由大写和小写字母组成的双字母字符。例如，克罗地亚拉丁字母有双字母ǈ。塞尔维亚语的对应字符Љ不是双字母 ，因此没有大小写混合形式。</transl>
     </text>
    </group>
    <group id="Lu">
@@ -9678,7 +9675,7 @@
     </text>
     <text id="Text">
      <orig>Scripts that adopted small (lowercase, minuscule) letters, started to call old-shaped letters capital, uppercase or majuscule.</orig>
-     <transl>采用小写（小写，小写体）字母的脚本开始将旧字形字母称为大写、大写字母或大写体。</transl>
+     <transl>采用小写（小写，小写体）字母的文字开始将旧字形字母称为大写、大写字母或大写体。</transl>
     </text>
    </group>
    <group id="Mc">
@@ -9689,7 +9686,7 @@
     </text>
     <text id="Text">
      <orig>Spacing (having their own width) combining marks are present in some scripts of South-East Asia: Devanagari, Bengali, Kannada, Hangul…</orig>
-     <transl>间隔（具有自己的宽度）组合标记存在于东南亚的一些脚本中：天城文、孟加拉文、坎纳达文和韩文字符 ...  ... </transl>
+     <transl>间隔（具有自己的宽度）组合标记存在于东南亚的一些文字中：天城文、孟加拉文、坎纳达文和韩文字符 ...  ... </transl>
     </text>
    </group>
    <group id="Me">
@@ -9700,7 +9697,7 @@
     </text>
     <text id="Text">
      <orig>Enclosing marks are used in old Cyrillic letter numbers (А҈). Also encosing square, circle and other shapes exist. None of tested typography engines in Windows{{_}}10 20H2 (GDI, Cairo, Skia) supports these characters perfectly, but on good fonts like DejaVu the result is not{{_}}so{{_}}bad.</orig>
-     <transl>包围标记用于古老的斯拉夫字母数字（А҈）。还存在包围方形、圆形和其他形状。Windows 10 20H2中的测试排版引擎（GDI、Cairo、Skia）均无法完美支持这些字符，但在像DejaVu这样的优质字体上，结果也不是{{}}那么{{}}糟糕。</transl>
+     <transl>包围标记用于古老的斯拉夫字母数字（А҈）。还存在包围方形、圆形和其他形状。Windows 10 20H2中的测试排版引擎（GDI、Cairo、Skia）均无法完美支持这些字符，但在像DejaVu这样的优质字体上，结果也不是那么糟糕。</transl>
     </text>
    </group>
    <group id="Mn">
@@ -9873,7 +9870,7 @@
     </text>
     <text id="Text">
      <orig>Unicode contains plenty of different characters, including commercial, technical and [[pt:emoji|emoji]].</orig>
-     <transl>Unicode包含大量不同的字符，包括商业符号、技术符号和[[pt:表情符号|表情符号]]。</transl>
+     <transl>Unicode包含大量不同的字符，包括商业符号、技术符号和[[pt:emoji|表情符号]]。</transl>
     </text>
    </group>
    <group id="Zl">
@@ -9915,9 +9912,9 @@
       <p>All spaces are [[pt:spacing|spacing]] characters. Zero-width spaces that do not{{_}}leave space are classified as [[pt:format|format]] characters rather than spaces.</p>
      </orig>
      <transl>
-      <p>用于留出空白的字符。排版良好的文本具有所需的空间量：146%太少，146%太多，{{%|146}}刚刚好。这就是为什么空格也有所不同。其中一些是不可断行的：在两端对齐的文本中不会拉伸，也不会换行到下一行。</p>
+      <p>用于留出空白的字符。排版良好的文本具有所需的空间量：146%太少，146%太多，146%刚刚好。这就是为什么空格也有所不同。其中一些是不可断行的：在两端对齐的文本中不会拉伸，也不会换行到下一行。</p>
       <p />
-      <p>空格通常没有{{_}}图形表示，只是移动光标。但是，如果启用了下划线，或者脚本具有公共线([[ps:Ogam|欧甘文]))，空格可能是可见的。</p>
+      <p>空格通常没有图形表示，只是移动光标。但是，如果启用了下划线，或者文字具有公共线([[ps:Ogam|欧甘文]))，空格可能是可见的。</p>
       <p />
       <p>在''Unicodia''中，空格的大小正好与字体大小相匹配，因此狭窄程度具有欺骗性。窄空格U+200A通常足够留出一点空间。</p>
       <p />
@@ -9948,10 +9945,10 @@
       <p>用于对文本字符串进行排序的标准顺序。已知最古老的是[[ps:Ugar|乌加里特语]]。</p>
       <p />
       <p>顺序的起源:</p>
-      <p>* [[ps:Latn|拉丁语]], [[ps:Grek|希腊语]], [[ps:Cyrl|西里尔语]], [[ps:Arab|阿拉伯语]], [[ps:Geor|格鲁吉亚语]], [[ps:Armn|亚美尼亚语]], [[ps:Hebr|希伯来语]], [[ps:Ethi|埃塞俄比亚语]]{{-}}来自[[ps:Phnx|腓尼基语]]。腓尼基语的顺序可能源自更早的闪族语言。</p>
+      <p>* [[ps:Latn|拉丁语]], [[ps:Grek|希腊语]], [[ps:Cyrl|西里尔语]], [[ps:Arab|阿拉伯语]], [[ps:Geor|格鲁吉亚语]], [[ps:Armn|亚美尼亚语]], [[ps:Hebr|希伯来语]], [[ps:Ethi|埃塞俄比亚语]]——来自[[ps:Phnx|腓尼基语]]。腓尼基语的顺序可能源自更早的闪族语言。</p>
       <p>* [[ps:Runr|卢恩文]](''Futhark''){{-}}未知;</p>
-      <p>* 所有[[pt:brahmic|婆罗米系文字]], [[pt:cjk|CJK]]按发音{{-}}语音顺序,从喉咙 {{t|k}} 到牙齿 {{t|s}};</p>
-      <p>* CJK 按照[[ps:Hani|书写]]{{-}}使用所谓的部首。</p>
+      <p>* 所有[[pt:brahmic|婆罗米系文字]], [[pt:cjk|CJK]]按发音——语音顺序,从喉咙 {{t|k}} 到牙齿 {{t|s}};</p>
+      <p>* CJK 按照[[ps:Hani|书写]]——使用所谓的部首。</p>
       <p />
       <p>Unicode 以接近字母表的顺序编写字母,但不编码字母表排序规则。如果字母表顺序发生变化,国家本身会在不咨询 Unicode 联盟的情况下自行更改。</p>
      </transl>
@@ -9960,7 +9957,7 @@
    <group id="abjad">
     <text id="Name">
      <orig>consonant script, abjad</orig>
-     <transl>辅音脚本, abjad</transl>
+     <transl>辅音文字, abjad</transl>
     </text>
     <text id="Text">
      <orig>
@@ -9975,15 +9972,15 @@
       <p>Many abjads have letters ''matres lectionis (mothers of reading)''{{-}}consonant letters meaning vowel phoneme. One of variants recorded in Hebrew: ''bayt'' → ''bet'' (house), and Yod letter was reinterpreted to words where diphtong never existed. Other variant is by articulation: [[ps:Grek|Greek]] letter Iota goes back to Phoenician letter Yod sometines meaning “i”. When vowel marks appeared, ''matres lectionis'' did{{_}}not{{_}}disappear, but started to complement them.</p>
      </orig>
      <transl>
-      <p>只写出辅音音素的脚本。元音要么完全省略,要么用可选的元音标记表示。“Abjad”这个名字来自于[[ps:Arab|阿拉伯语]]字母的自称——أبجد ''abjadiya''。</p>
+      <p>只写出辅音音素的文字。元音要么完全省略,要么用可选的元音标记表示。“Abjad”这个名字来自于[[ps:Arab|阿拉伯语]]字母的自称——أبجد ''abjadiya''。</p>
       <p />
-      <p>尽管有明显的缺点,辅音脚本也有一些优点。</p>
+      <p>尽管有明显的缺点,辅音文字也有一些优点。</p>
       <p>* 在闪族语言中——[[ps:Phnx|腓尼基语]], [[ps:Hebr|希伯来语]], 阿拉伯语——词根是一个辅音骨架,而元音充当后缀。例如,在阿拉伯语中,“jihad”是由“mujahid”完成的。</p>
       <p>* 更容易组建大型帝国——方言差异被平滑了。</p>
       <p>* 不仅在空间上,而且在时间上也平滑了差异——几个世纪以来的铭文与现代语言更加对应。</p>
-      <p>* 当“纸张”和“笔”质量较差时,这种脚本较短是很重要的。</p>
+      <p>* 当“纸张”和“笔”质量较差时,这种文字较短是很重要的。</p>
       <p />
-      <p>许多辅音脚本都有字母'matres lectionis (reading mothers)'——代表元音音素的辅音字母。其中一个变体记录在希伯来文中:'bayt' → 'bet'(房子),并且 Yod 字母被重新解释为从未存在过双元音的单词。另一个变体是通过发音:[[ps:Grek|希腊语]]字母 Iota 回到有时意味着“i”的腓尼基字母 Yod。当元音标记出现时,'matres lectionis'并没有消失,而是开始补充它们。</p>
+      <p>许多辅音文字都有字母'matres lectionis (reading mothers)'——代表元音音素的辅音字母。其中一个变体记录在希伯来文中:'bayt' → 'bet'(房子),并且 Yod 字母被重新解释为从未存在过双元音的单词。另一个变体是通过发音:[[ps:Grek|希腊语]]字母 Iota 回到有时意味着“i”的腓尼基字母 Yod。当元音标记出现时,'matres lectionis'并没有消失,而是开始补充它们。</p>
      </transl>
     </text>
    </group>
@@ -10007,7 +10004,7 @@
       <p>Interesting fact: the word “abugida” comes from Ge’ez (old Ethiopic) {{sm|አቡጊዳ}} (a-bu-gi-da){{-}}so some linguists deny the right for name “abugida” to the script where this name came from!</p>
      </orig>
      <transl>
-      <p>学者们对于 abugida 的定义并不一致,其中最广泛的一种是:一种音节脚本,其中相似的音节用类似的字符书写。</p>
+      <p>学者们对于 abugida 的定义并不一致,其中最广泛的一种是:一种音节文字,其中相似的音节用类似的字符书写。</p>
       <p />
       <p>[[pt:brahmic|婆罗米系文字]] '''肯定是''' abugidas。</p>
       <p />
@@ -10017,7 +10014,7 @@
       <p />
       <p>[[ps:Hang|韩语]] 和 [[ps:Yiii|彝语]] '''肯定不是 abugidas'''。</p>
       <p />
-      <p>一个有趣的事实:“abugida”这个词来源于 Ge’ez(古老的埃塞俄比亚语){{sm|አቡጊዳ}}(a-bu-gi-da){{-}}因此一些语言学家否认将名称“abugida”赋予该名称来源的脚本的权利!</p>
+      <p>一个有趣的事实:“abugida”这个词来源于 Ge’ez(古老的埃塞俄比亚语){{sm|አቡጊዳ}}(a-bu-gi-da){{-}}因此一些语言学家否认将名称“abugida”赋予该名称来源的文字的权利!</p>
      </transl>
     </text>
    </group>
@@ -10042,7 +10039,7 @@
    <group id="alphabet">
     <text id="Name">
      <orig>alphabetical script</orig>
-     <transl>字母脚本</transl>
+     <transl>字母文字</transl>
     </text>
     <text id="Text">
      <orig>
@@ -10053,9 +10050,9 @@
       <p>With all adantages, alphabets have a severe disadvantage. Because of pronunciation shifts, complex historical othography appears, and it must be reformed sometimes. Well, [[ps:Cyrl|Russian]] Yat '''ѣ''' was a separate phoneme that completely disappeared in 18th century, and was dropped from writing in 1918, more than a century later. Spelling of [[ps:Latn|English]] and French is mostly historical.</p>
      </orig>
      <transl>
-      <p>线性脚本,同时书写辅音和元音。已知最早的字母是[[ps:Grek|希腊语]]。</p>
+      <p>线性文字,同时书写辅音和元音。已知最早的字母是[[ps:Grek|希腊语]]。</p>
       <p />
-      <p>非线性脚本,其中辅音和元音组合成音节,被认为是字母的一部分([[ps:Thaa|塔纳语]],[[ps:Hang|韩语]])或根本不属于任何部分([[ps:Laoo|老挝语]])。</p>
+      <p>非线性文字,其中辅音和元音组合成音节,被认为是字母的一部分([[ps:Thaa|塔纳语]],[[ps:Hang|韩语]])或根本不属于任何部分([[ps:Laoo|老挝语]])。</p>
       <p />
       <p>尽管有所有优点,字母有一个严重的缺点。由于发音的变化,出现了复杂的正字法历史,必须有时对其进行改革。好吧,[[ps:Cyrl|俄罗斯]] Yat '''ѣ''' 曾经是一个单独的音素,它在18世纪完全消失了,并在一个多世纪后的1918年才从书面语中删除。[[ps:Latn|英语]]和法语的拼写主要是历史性的。</p>
      </transl>
@@ -10148,7 +10145,7 @@
    <group id="arguable">
     <text id="Name">
      <orig>script of arguable type</orig>
-     <transl>脚本 of arguable 类型</transl>
+     <transl>可变类型文字</transl>
     </text>
     <text id="Text">
      <orig>
@@ -10211,7 +10208,7 @@
      <transl>
       <p>学者们对[[pt:abugida|abugida]]的定义存在分歧。但他们在一件事上是一致的：'''源自[[ps:Brah|婆罗米文]]的一组文字'''肯定是 abugidas。</p>
       <p />
-      <p>在闪族语言中，单词的词根由辅音组成，元音用于后缀：在[[ps:Arab|阿拉伯语]]中，“Islam”由“Muslim”实践。对他们来说，引入[[pt:abjad|辅音]]脚本是很自然的。当[[ps:Armi|阿拉姆语]]脚本向东传播并与印欧语言碰撞时，出现了一种音节脚本，以某种方式在除[[pt:cjk|中国、韩国和日本]]之外的整个东南亚地区传播。</p>
+      <p>在闪族语言中，单词的词根由辅音组成，元音用于后缀：在[[ps:Arab|阿拉伯语]]中，“Islam”由“Muslim”实践。对他们来说，引入[[pt:abjad|辅音]]文字是很自然的。当[[ps:Armi|阿拉姆语]]文字向东传播并与印欧语言碰撞时，出现了一种音节文字，以某种方式在除[[pt:cjk|中国、韩国和日本]]之外的整个东南亚地区传播。</p>
       <p />
       <p>婆罗米系 abugidas 的特点：</p>
       <p>* 辅音字母表示带有某种固有元音的音节，其余元音用元音标记添加：[[ps:Deva|天城文]] &lt;nobr&gt;ka {{sm|क}} + i {{sm| ि}} = ki {{sm|कि}}&lt;/nobr&gt;。</p>
@@ -10223,9 +10220,9 @@
       <p />
       <p>有几种传达复杂音节的方法：</p>
       <p>* 使用 virama（类似于 pa-n_-da）：单独的辅音是一个单独的音节（[[ps:Tglg|Baybayin]]）。</p>
-      <p>* 使用辅音连字（pa-nda）：天城文{{sm|क्ष}} kša。它的输入方式是没有连字符号：ka + virama + š{{-}}但在明确形式中，virama 仅在单词的末尾出现。通常在单词的末尾它也可能不存在（固有元音变为无声）。字母 R 在这些连字中常常变小。小的初始 R（{{sm|र्क}} rka）被称为“repha”，小的附属 R（{{sm|क्र}} kra）是“rakar”。</p>
+      <p>* 使用辅音连字（pa-nda）：天城文{{sm|क्ष}} kša。它的输入方式是没有连字符号：ka + virama + š——但在明确形式中，virama 仅在单词的末尾出现。通常在单词的末尾它也可能不存在（固有元音变为无声）。字母 R 在这些连字中常常变小。小的初始 R（{{sm|र्क}} rka）被称为“repha”，小的附属 R（{{sm|क्र}} kra）是“rakar”。</p>
       <p>* 使用最后的辅音（pan-da）{{-}}[[ps:Phag|八思巴文]]。没有 virama。可能存在虚拟 virama 或其他使初始辅音连字的方法。</p>
-      <p>* 不完整，难以传达复杂音节（pa-da）{{-}}[[ps:Bugi|布吉语]]。一些样本退化为辅音脚本。</p>
+      <p>* 不完整，难以传达复杂音节（pa-da）{{-}}[[ps:Bugi|布吉语]]。一些样本退化为辅音文字。</p>
       <p>* 失去固有元音（pa-nᵊ-da）{{-}}通过改革（[[ps:Laoo|老挝语]]）或自然演变（[[ps:Guru|古鲁米基文]]）。在后一种情况下，它可能不总是区分{{t|na}}和{{t|n}}，并在字典中使用 virama。</p>
      </transl>
     </text>
@@ -10268,7 +10265,7 @@
       <p />
       <p>4. 为其余字符指定方向。如果它们从右到左并且是镜像的，则进行反射。</p>
       <p />
-      <p>5. 执行更高级别的协议{{-}}例如，定义表格的方向。</p>
+      <p>5. 执行更高级别的协议——例如，定义表格的方向。</p>
       <p />
       <p>例如：“XX,YY 1,00&amp;lt;2,00 XX” = “ثث,حح 1,00&amp;lt;2,00 ثث”</p>
       <p />
@@ -10596,7 +10593,7 @@
       <p>附加到基础字符上的从属字符。标记用于：</p>
       <p />
       <p>* 变音符号 - 添加到基础字母上的标记；</p>
-      <p>* [[pt:abjad|辅音]]脚本和[[pt:abugida|abugidas]]中的元音标记；</p>
+      <p>* [[pt:abjad|辅音]]文字和[[pt:abugida|abugidas]]中的元音标记；</p>
       <p>* 在字体中使用[[pt:ligature|连字]]的各种“技巧”：例如，字母 + 变化选择器 = 其他形状的字母。</p>
       <p />
       <p>Unicode将标记分为[[pt:spacing|间隔]]、非间隔和包围。</p>
@@ -11207,11 +11204,11 @@
       <p />
       <p>* 第0平面是'''[[pt:bmp|基本多文种平面]]'''，包含大多数现代语言的字符。Unicode{{_}}16中有16个未分配的位置。</p>
       <p />
-      <p>* 第1平面是'''补充多文种平面'''，包含稀有和死亡语言以及技术字符，填充率不到{{%|50}}。</p>
+      <p>* 第1平面是'''补充多文种平面'''，包含稀有和死亡语言以及技术字符，填充率不到50%。</p>
       <p />
-      <p>* 第2平面是'''补充表意文字平面'''，仅包含[[ps:Hani|CJK表意文字]]，填充率为{{%|93}}。</p>
+      <p>* 第2平面是'''补充表意文字平面'''，仅包含[[ps:Hani|CJK表意文字]]，填充率为93%。</p>
       <p />
-      <p>* 第3平面是'''三级表意文字平面'''，仅包含CJK表意文字，填充率为{{%|14}}。</p>
+      <p>* 第3平面是'''三级表意文字平面'''，仅包含CJK表意文字，填充率为14%。</p>
       <p />
       <p>* 平面4至0D未使用。</p>
       <p />
@@ -11280,11 +11277,11 @@
      <transl>
       <p>[[pt:bmp|基本平面]]中的6400个字符E000…F8FF，以及两个[[pt:plane|平面]]0F和10中的131068个字符（除了*FFFE和*FFFF这两个[[pt:noncharacter|非字符]]）可供每个人自行使用。</p>
       <p />
-      <p>通过相互协商，人们可以在这些范围内编码他们想要的一切，包括不符合Unicode条件的字符：商标、虚构字母、稀有字符和脚本、样式标签、替换标记。Unicode联盟对此不负任何责任。这里列举了私有字符的四种常见用途：</p>
+      <p>通过相互协商，人们可以在这些范围内编码他们想要的一切，包括不符合Unicode条件的字符：商标、虚构字母、稀有字符和文字、样式标签、替换标记。Unicode联盟对此不负任何责任。这里列举了私有字符的四种常见用途：</p>
       <p />
       <p>* 操作系统供应商经常在此处编码自己的标志。最终用户从E000开始抓取代码，而软件供应商则从F8FF向下抓取。</p>
       <p />
-      <p>* ConScript Unicode注册表及其前身Under-ConScript Unicode注册表——超过60种构造语言、电影、文学和游戏中的脚本。其中三种，[[pk:101D0|费斯托斯圆盘]]、[[ps:Shaw|肖氏字母]]、[[ps:Dsrt|德塞雷特字母]]已被实际的Unicode接受。</p>
+      <p>* ConScript Unicode注册表及其前身Under-ConScript Unicode注册表——超过60种构造语言、电影、文学和游戏中的文字。其中三种，[[pk:101D0|费斯托斯圆盘]]、[[ps:Shaw|肖氏字母]]、[[ps:Dsrt|德塞雷特字母]]已被实际的Unicode接受。</p>
       <p />
       <p>* 标准音乐字体布局（SMuFL）——音乐字体的开放标准，用于缩写[[pk:1D100|乐谱]]PDF。</p>
       <p />
@@ -11374,7 +11371,7 @@
       <p />
       <p>两个虚构的文字被拒绝，Ursula Le Guin的Aiha和《星际迷航》系列中的克林贡语。但J.R.R. Tolkien发明的Tengwar和Cirth正在走向编码。</p>
       <p />
-      <p>不知为何[[pk:101D0|费斯托斯圆盘]]被编码，但其他三个未探索的脚本遭到拒绝。虽然未破解但研究充分的脚本如[[ps:Cpmn|塞浦路斯-米诺斯]]和印度河文字可能会在未来被编码。</p>
+      <p>不知为何[[pk:101D0|费斯托斯圆盘]]被编码，但其他三个未探索的文字遭到拒绝。虽然未破解但研究充分的文字如[[ps:Cpmn|塞浦路斯-米诺斯]]和印度河文字可能会在未来被编码。</p>
       <p />
       <p>''Jindai''也被拒绝。日本假定的史前[[ps:Hani|汉字]]被认为是一种17世纪的伪造品。</p>
      </transl>
@@ -11387,7 +11384,7 @@
     </text>
     <text id="Text">
      <orig>Character’s behaviour is mainly specified with complex tables rather than with its name or position in code table. Excerpts from these tables are present in ''Unicodia'': [[pt:number|numeric]] value, case, writing [[pt:bidi|direction]]…</orig>
-     <transl>字符的行为主要由复杂表指定，而不是由其名称或代码表中的位置指定。这些表格的摘录出现在 ''Unicodia'' 中：[[pt：number|numeric]] value， case， writing [[pt：bidi|direction]]...</transl>
+     <transl>字符的行为主要由复杂表指定，而不是由其名称或代码表中的位置指定。这些表格的摘录出现在 ''Unicodia'' 中：[[pt：number|numeric]] 值，案例，写作 [[pt：bidi|direction]]...</transl>
     </text>
    </group>
    <group id="serialization">
@@ -11470,7 +11467,7 @@
       <p />
       <p>'''字符名称不会改变'''（2.0+）。尽管存在更正名称，但它们由''Unicodia''显示。同义词也不会更改，包括更正（5.0+）。</p>
       <p />
-      <p>'''字符串的[[pt:normalization|规范化]]不会改变'''（4.1+）。3.1版有较弱的保证：Unicode采用越来越多的[[ps:Latn|拉丁]]和其他常见脚本，其中规范化很重要。</p>
+      <p>'''字符串的[[pt:normalization|规范化]]不会改变'''（4.1+）。3.1版有较弱的保证：Unicode采用越来越多的[[ps:Latn|拉丁]]和其他常见文字，其中规范化很重要。</p>
       <p />
       <p>'''字符属性可能会改变，但不会改变其本质'''（1.1+）。例如，大写字母不会变成小写，[[pt:noncharacter|非字符]]也不会重新使用。在Unicode的后续版本中，这一规则得到了澄清。</p>
       <p />
@@ -11486,7 +11483,7 @@
     <au-cmt>hidden term, click any script</au-cmt>
     <text id="Name">
      <orig>script status</orig>
-     <transl>脚本 状态</transl>
+     <transl>文字状态</transl>
     </text>
     <text id="Text">
      <orig>
@@ -11540,7 +11537,7 @@
    <group id="syllabic">
     <text id="Name">
      <orig>syllabic script</orig>
-     <transl>音节文字 脚本</transl>
+     <transl>音节文字</transl>
     </text>
     <text id="Text">
      <orig>
@@ -11591,7 +11588,7 @@
      <transl>
       <p>当字体中缺少字符时显示的[[pt:character|字形]]。通常豆腐是一个白色方块，因此得名于切成骰子形状的日本豆制品。</p>
       <p />
-      <p>有些字体有创意的豆腐：带有问号的矩形，带有十字或带有草图标记的脚本。</p>
+      <p>有些字体有创意的豆腐：带有问号的矩形，带有十字或带有草图标记的文字。</p>
       <p />
       <p>一些Unicode字符是[[pt:ignorable|默认忽略的]]——不显示为豆腐。</p>
       <p />
@@ -11713,21 +11710,21 @@
       <p>UTF-8 is widely used as a format of inter-software exchange, including most Internet formats and protocols. [[pt:bom|Byte order mark]] is EF{{_}}BB{{_}}BF. As a format of program interface UTF-8 is used in Linux, cross-platform libraries like SSL.</p>
      </orig>
      <transl>
-      <p>'''Unicode 8位转换格式'''是Unicode[[pt:serialization|序列化]]为字节链的格式。1992年在Plan{{}}9操作系统中发明，用于与现有的Internet软件兼容。每个[[pt:codepoint|代码点]]都使用以下序列之一写入：</p>
+      <p>'''Unicode 8位转换格式'''是Unicode[[pt:serialization|序列化]]为字节链的格式。1992年在Plan 9操作系统中发明，用于与现有的Internet软件兼容。每个[[pt:codepoint|代码点]]都使用以下序列之一写入：</p>
       <p>* 0xxx.xxxx</p>
-      <p>* 110x.xxxx{{}}10xx.xxxx</p>
-      <p>* 1110.xxxx{{}}10xx.xxxx{{}}10xx.xxxx</p>
-      <p>* 1111.0xxx{{}}10xx.xxxx{{}}10xx.xxxx{{}}10xx.xxxx</p>
+      <p>* 110x.xxxx 10xx.xxxx</p>
+      <p>* 1110.xxxx 10xx.xxxx 10xx.xxxx</p>
+      <p>* 1111.0xxx 10xx.xxxx 10xx.xxxx 10xx.xxxx</p>
       <p />
       <p>UTF-8的属性：</p>
       <p>* 理论上可以使用最多6个字节的序列写入20亿个代码点。但是，由于Unicode与[[pt:utf16|UTF-16]]的限制，没有超过4个字节的序列。</p>
       <p>* 向后兼容性：拉丁文本与ASCII文本无法区分。00和7F字节是[[pt:control|控制]]字节，FF字节是不可能的，这与程序接口、终端协议兼容。</p>
-      <p>* 存在一种非标准的UTF-8格式，其中空字符编码为C0{{}}80，以区别于字符串结尾的00。</p>
+      <p>* 存在一种非标准的UTF-8格式，其中空字符编码为C0 80，以区别于字符串结尾的00。</p>
       <p>* 自同步：如果添加任何错误字节，其余文本仍然可读。使用旧程序在正确的UTF-8中进行搜索也不会产生误报。</p>
       <p>* 可靠检测：单字节编码（除非它是纯ASCII）或UTF-16中的有意义文本不可能与UTF-8混淆。</p>
       <p>* 单调：按UTF-8字节排序与按字符代码排序相同。</p>
       <p />
-      <p>UTF-8被广泛用作软件间交换的格式，包括大多数Internet格式和协议。[[pt:bom|字节顺序标记]]是EF{{}}BB{{}}BF。作为程序接口格式，UTF-8在Linux、跨平台库（如SSL）中使用。</p>
+      <p>UTF-8被广泛用作软件间交换的格式，包括大多数Internet格式和协议。[[pt:bom|字节顺序标记]]是EF BB BF。作为程序接口格式，UTF-8在Linux、跨平台库（如SSL）中使用。</p>
      </transl>
     </text>
    </group>
@@ -11758,10 +11755,10 @@
      <transl>
       <p>'''Unicode 转换格式，16 位'''是 Unicode [[pt:serialization|序列化]]为一系列两字节机器字的一种格式。</p>
       <p />
-      <p>Unicode 最初被设想为两字节编码，用两字节字符书写的文本被称为 UCS-2。当时的进步语言和库，如 Java 和 Windows{{}}NT，迅速采用了两字节字符，简化了文本处理。但很快人们意识到两个字节并不够用，于是在 1996 年，采用可变数量两字节字的编码作为折衷方案，并被命名为 UTF-16。</p>
+      <p>Unicode 最初被设想为两字节编码，用两字节字符书写的文本被称为 UCS-2。当时的进步语言和库，如 Java 和 Windows NT，迅速采用了两字节字符，简化了文本处理。但很快人们意识到两个字节并不够用，于是在 1996 年，采用可变数量两字节字的编码作为折衷方案，并被命名为 UTF-16。</p>
       <p>* 字符 0 ... D7FF 和 E000 ... FFFF 直接书写；</p>
       <p>* 字符 D800 ... DFFF 被禁用；</p>
-      <p>* 字符 10000 及更大字符以'''代理对'''形式书写：1101.10yy.yyyy.yyyy{{}}1101.11yy.yyyy.yyyy，其中 y=x−10000₁₆。</p>
+      <p>* 字符 10000 及更大字符以'''代理对'''形式书写：1101.10yy.yyyy.yyyy 1101.11yy.yyyy.yyyy，其中 y=x−10000₁₆。</p>
       <p />
       <p>UTF-16 的特性：</p>
       <p>* 对 Unicode 容量施加限制：2&lt;big&gt;²⁰&lt;/big&gt;+2&lt;big&gt;¹⁶&lt;/big&gt;−2&lt;big&gt;¹¹&lt;/big&gt;=1,112,064 个字符。</p>
@@ -11770,7 +11767,7 @@
       <p>* 检测不可靠：没有[[pt:bom|字节顺序标记]]，UTF-16 格式和字节顺序只能通过间接证据（例如统计或代理对）检测。著名的[[pt:ascii|ASCII]]字符串“Bush hid the facts”会破坏 Windows 对 UCS-2 的统计检测。</p>
       <p>* 非单调：按 UTF-16 字排序与按字符代码排序不同。</p>
       <p />
-      <p>作为软件间交换的格式，UTF-16 主要用于源自 Windows 和 Mac/Motorola 的二进制文件（例如，在 TrueType 字体中）。这些文件不需要字节顺序标记；在文本文件中，UTF-16BE 为 FE{{}}FF，UTF-16LE 为 FF{{}}FE。作为程序接口格式，它在 Windows、Java、JavaScript、Qt 中使用。</p>
+      <p>作为软件间交换的格式，UTF-16 主要用于源自 Windows 和 Mac/Motorola 的二进制文件（例如，在 TrueType 字体中）。这些文件不需要字节顺序标记；在文本文件中，UTF-16BE 为 FE FF，UTF-16LE 为 FF FE。作为程序接口格式，它在 Windows、Java、JavaScript、Qt 中使用。</p>
      </transl>
     </text>
    </group>
@@ -11798,7 +11795,7 @@
       <p>* 极其庞大：在[[pt:utf8|UTF-8]]和[[pt:utf16|UTF-16]]中，最大字符大小为 4 字节，而在 UTF-32 中，所有字符均为四字节。</p>
       <p>* 可通过前 11 位零可靠检测。</p>
       <p />
-      <p>作为软件间交换的格式，UTF-32 由于体积庞大而几乎从不使用。如果需要，[[pt:bom|字节顺序标记]]为 UTF-32BE 的 00{{}}00{{}}FE{{}}FF 和 UTF-32LE 的 FF{{}}FE{{}}00{{}}00。作为程序接口格式，UTF-32 用于类 Unix 操作系统的新版本，包括 MacOS。</p>
+      <p>作为软件间交换的格式，UTF-32 由于体积庞大而几乎从不使用。如果需要，[[pt:bom|字节顺序标记]]为 UTF-32BE 的 00 00 FE FF 和 UTF-32LE 的 FF FE 00 00。作为程序接口格式，UTF-32 用于类 Unix 操作系统的新版本，包括 MacOS。</p>
      </transl>
     </text>
    </group>
@@ -11827,11 +11824,11 @@
      </orig>
      <transl>
       <p>字符 U+FEFF。它可以（但不必）置于 Unicode 文本文件的开头，以指示[[pt:serialization|序列化]]格式。编码后的字节顺序标记如下所示：</p>
-      <p>* EF{{}}BB{{}}BF - [[pt:utf8|UTF-8]]；</p>
-      <p>* FE{{}}FF - [[pt:utf16|UTF-16BE]]（最高有效字节在前）；</p>
-      <p>* FF{{}}FE，然后是除 00{{}}00 外的所有内容 - UTF-16LE（最低有效字节在前）；</p>
-      <p>* 00{{}}00{{}}FE{{}}FF - [[pt:utf32|UTF-32BE]]；</p>
-      <p>* FF{{}}FE{{}}00{{_}}00 - UTF-32LE。</p>
+      <p>* EF BB BF - [[pt:utf8|UTF-8]]；</p>
+      <p>* FE FF - [[pt:utf16|UTF-16BE]]（最高有效字节在前）；</p>
+      <p>* FF FE，然后是除 00 00 外的所有内容 - UTF-16LE（最低有效字节在前）；</p>
+      <p>* 00 00 FE FF - [[pt:utf32|UTF-32BE]]；</p>
+      <p>* FF FE 00{{_}}00 - UTF-32LE。</p>
       <p />
       <p>[[pt:utf7|UTF-7]]和[[pt:punycode|Punycode]]不作为文本文件的格式出现。UTF-32 极其罕见。</p>
       <p />
@@ -11892,7 +11889,7 @@
      <transl>
       <p>[[pt:format|格式]]字符 U+200D，用于将字符组合成[[pt:ligature|连字]]。它是[[pt:ignorable|默认忽略的]]，即跳过它不会有任何问题。</p>
       <p />
-      <p>'''[[pt:brahmic|婆罗米]]脚本''', 例如 [[ps:Deva|天城体]]：</p>
+      <p>'''[[pt:brahmic|婆罗米]]文字''', 例如 [[ps:Deva|天城体]]：</p>
       <p>{{smtable|*क|ka +|**◌्|[[pt:virama|维拉马]] +|*ष|ša =|*क्ष|kša}}</p>
       <p>{{smtable|*क|ka +|**◌्|维拉马 + ZWJ +|*ष|ša =|*क्‍ष|alternate kša}}</p>
       <p />
@@ -11924,11 +11921,11 @@
       <p>::: (usually in compound words)</p>
      </orig>
      <transl>
-      <p>[[pt：format|格式]] 字符 U+200C 用于断开 [[pt：ligature|ligature]]。它是 [[pt：ignorable|default-ignorable]]，即它不需要{{}}不是{{}}必须位于字体中。拉丁文]]'''</p>
+      <p>[[pt：format|格式]] 字符 U+200C 用于断开 [[pt：ligature|连接]]。它是 [[pt：ignorable|默认忽略]]，即它不必在字体中。</p>
       <p>： 在某些字体中 '''stop''' → '''stop''</p>
       <p>： '''dys''' + ZWNJ + '''topia''' = '''dys topia''' （前缀和词根之间没有连字）</p>
       <p />
-      <p>'''[[pt：brahmic|Indic]] 脚本'''，例如 [[ps：Deva|梵文]]</p>
+      <p>'''[[pt：brahmic|Indic]] 文字'''，例如 [[ps：Deva|梵文]]</p>
       <p>{{smtable|क|ka +|◌्|[[pt：virama|virama]]+|ष|ša =|क्ष|kša}}</p>
       <p>{{smtable|क|ka +|◌्|virama + ZWNJ +|ष|ša =|*क् ष|alternate kša}}</p>
       <p>：：： （通常用复合词）</p>
@@ -11947,7 +11944,7 @@
    </text>
    <text id="Scripts">
     <orig>Types of scripts</orig>
-    <transl>脚本类型</transl>
+    <transl>文字类型</transl>
    </text>
    <text id="Chars">
     <orig>Types of characters</orig>
@@ -12013,7 +12010,7 @@
     </text>
     <text id="Name">
      <orig>Direction of vertical scripts</orig>
-     <transl>垂直脚本的方向</transl>
+     <transl>垂直书写的方向</transl>
     </text>
     <text id="Text">
      <orig>
@@ -12245,7 +12242,7 @@
    </text>
    <text id="Etc">
     <orig>and others</orig>
-    <transl>和 其他s</transl>
+    <transl>和其他</transl>
    </text>
    <text id="Thanks">
     <orig>Special thanks</orig>
@@ -12346,7 +12343,7 @@
      </text>
      <text id="acAddCpToFavs">
       <orig>Add to favourites</orig>
-      <transl>添加到收藏夹</transl>
+      <transl>加入藏夹</transl>
      </text>
      <text id="acRemoveFromFavs">
       <orig>Remove from favourites</orig>
@@ -12850,7 +12847,7 @@
     </text>
     <text id="other-object">
      <orig>Other objects</orig>
-     <transl>其他 物品</transl>
+     <transl>其他物品</transl>
     </text>
     <text id="Symbols">
      <orig>Symbols</orig>
@@ -12898,7 +12895,7 @@
     </text>
     <text id="other-symbol">
      <orig>Other symbols</orig>
-     <transl>其他 符号</transl>
+     <transl>其他符号</transl>
     </text>
     <text id="keycap">
      <orig>Keycaps</orig>
@@ -12922,7 +12919,7 @@
     </text>
     <text id="country-flag">
      <orig>Country flags</orig>
-     <transl>国家/地区 旗帜</transl>
+     <transl>国家/地区旗帜</transl>
     </text>
     <text id="subdivision-flag">
      <orig>Subdivision flags</orig>
@@ -12986,7 +12983,7 @@
     </text>
     <text id="Currencies">
      <orig>Currency symbols</orig>
-     <transl>货币 符号</transl>
+     <transl>货币符号</transl>
     </text>
     <text id="IntelProperty">
      <orig>Intellectual property</orig>
@@ -13038,7 +13035,7 @@
     </text>
     <text id="ChinZodc">
      <orig>Chinese zodiac</orig>
-     <transl>汉语 生肖</transl>
+     <transl>中国生肖</transl>
     </text>
     <text id="TechDraw">
      <orig>Technical drawing</orig>
@@ -13143,7 +13140,7 @@
     </text>
     <text id="SsBold">
      <orig>Sans-serif bold</orig>
-     <transl>双线体 等宽字体</transl>
+     <transl>双线体等宽字体</transl>
     </text>
     <text id="Monospace">
      <orig>Monospace</orig>
@@ -13271,19 +13268,19 @@
     </text>
     <text id="SansItalCap">
      <orig>Sans-serif italic / capital</orig>
-     <transl>双线体 粗体/小写</transl>
+     <transl>双线体粗体/小写</transl>
     </text>
     <text id="SansItalSmall">
      <orig>Sans-serif italic / small</orig>
-     <transl>双线体 斜体/大写</transl>
+     <transl>双线体斜体/大写</transl>
     </text>
     <text id="SansBiCap">
      <orig>Sans-serif bold+italic / capital</orig>
-     <transl>双线体 等宽字体+粗体/小写</transl>
+     <transl>双线体等宽字体+粗体/小写</transl>
     </text>
     <text id="SansBiSmall">
      <orig>Sans-serif bold+italic / small</orig>
-     <transl>双线体 等宽字体+斜体/大写</transl>
+     <transl>双线体等宽字体+斜体/大写</transl>
     </text>
     <text id="SmallCap">
      <orig>Small capitals</orig>
@@ -13672,7 +13669,7 @@
     <text id="EuAs">
      <orig>Europe and Asia</orig>
      <au-cmt>Russia, Georgia</au-cmt>
-     <transl>欧洲 和 亚洲</transl>
+     <transl>欧洲和亚洲</transl>
     </text>
     <text id="Oa">
      <orig>Atlantic Ocean</orig>
@@ -13748,7 +13745,7 @@
     <text id="AsMa">
      <orig>Asia and Malay Archipelago</orig>
      <au-cmt>Malaysia</au-cmt>
-     <transl>亚洲 和 马来群岛</transl>
+     <transl>亚洲和马来群岛</transl>
     </text>
     <text id="Oi">
      <orig>Indian Ocean</orig>
@@ -13840,15 +13837,15 @@
     </text>
     <text id="NewNew">
      <orig>from new scripts</orig>
-     <transl>来自新脚本</transl>
+     <transl>来自新文字</transl>
     </text>
     <text id="NewEx">
      <orig>from existing scripts</orig>
-     <transl>来自现有脚本</transl>
+     <transl>来自现有文字</transl>
     </text>
     <text id="NewFmt">
      <orig>[[pt:format|format]] characters without script</orig>
-     <transl>[[pt:format|格式]] 字符（无脚本）</transl>
+     <transl>[[pt:format|格式]] 字符（无文字）</transl>
     </text>
     <text id="NewSym">
      <orig>misc. symbols</orig>
@@ -13868,7 +13865,7 @@
     </text>
     <text id="NewEm1">
      <orig>Single-character and VS16</orig>
-     <transl>单字符 和 VS16</transl>
+     <transl>单字符和 VS16</transl>
     </text>
     <text id="NewEm1a">
      <orig>Single-character</orig>
@@ -13948,11 +13945,11 @@
     </text>
     <text id="NewSc">
      <orig>New scripts</orig>
-     <transl>新脚本</transl>
+     <transl>新文字</transl>
     </text>
     <text id="TotalSc">
      <orig>Total scripts</orig>
-     <transl>脚本总计</transl>
+     <transl>文字总计</transl>
     </text>
     <text id="Plus">
      <orig>{1} + {2} skintone</orig>
@@ -13977,7 +13974,7 @@
      <transl>
       <p>成为ISO标准的第一版，也是Unicode库中最早存在的版本。1.0和1.0.1库已重建。</p>
       <p />
-      <p>Version 1.0（1991年10月，约7200个字符）添加了1.1中的大多数脚本，包括在1.1中删除的藏文，以及将在2.0中删除的2350个韩文音节。</p>
+      <p>Version 1.0（1991年10月，约7200个字符）添加了1.1中的大多数文字，包括在1.1中删除的藏文，以及将在2.0中删除的2350个韩文音节。</p>
       <p />
       <p>Version 1.0.1（1992年6月，约28,300个字符）添加了20,902个CJK汉字，并删除了6个字符。</p>
       <p />
@@ -14033,7 +14030,7 @@
      <transl>
       <p>Unicode联合会经历了员工问题，发布经理离职，汉学家去世。因此，他们决定进行一个小版本发布：五个象形描述字符，18个向右的表情符号，以及包括酸橙、凤凰和家庭轮廓在内的10个表情符号序列。</p>
       <p />
-      <p>中国政府也被迫做了一项紧急工作，见CJK汉字扩展I。</p>
+      <p>中国政府也被迫做了一项紧急工作，见CJK汉字扩展 I。</p>
       <p />
       <p>预计2024年将发布一个非常大的16.0版本。</p>
      </transl>
@@ -14051,11 +14048,13 @@
       <p>Unicode{{_}}16 might have exactly 155 thousand characters (excluding 65 [[pt:control|control]]){{-}}but two Indic [[pt:ligature|ligatures]] were removed.</p>
      </orig>
      <transl>
-      <p>除了字符添加外，Unicode还进行了许多内部更改。</p>
-      <p>* 重写了渲染阿拉伯文本的算法。</p>
-      <p>* 编写了不应存在于Unicode文本中的字符序列。</p>
-      <p>* 添加了埃及象形文字的库。</p>
-      <p>* 将PDF规范转换为HTML网站。</p>
+      <p>除了字符添加之外，Unicode 中还有许多内部变化。</p>
+      <p>* 重写了呈现阿拉伯语文本的算法。 </p>
+      <p>* 编写了 Unicode 文本中不应存在的字符序列。 </p>
+      <p>* 添加了埃及象形文字的基础。 </p>
+      <p>* 将 PDF 规范转换为 HTML 站点。</p>
+      <p />
+      <p>Unicode{{_}}16 可能正好有 155,000 个字符（不包括 65 个 [[pt：control|control]]）{{-}}，但两个印度语 [[pt：ligature|ligatures]] 被删除了。</p>
      </transl>
     </text>
    </group>
@@ -14068,8 +14067,8 @@
      </orig>
      <transl>
       <p>* 编写的[[pt:egyp|规则]]用于编码埃及象形文字</p>
-      <p>* 添加了最后一个表情符号{{-}}舞者的无性别版本：拉丁舞代表女性，迪斯科舞代表男性，芭蕾舞代表无性别</p>
-      <p>* 添加了最后的多种族表情符号{{-}}摔跤手和花花公子女孩</p>
+      <p>* 添加了最后一个表情符号——舞者的无性别版本：拉丁舞代表女性，迪斯科舞代表男性，芭蕾舞代表无性别</p>
+      <p>* 添加了最后的多种族表情符号——摔跤手和花花公子女孩</p>
      </transl>
     </text>
    </group>
@@ -14386,7 +14385,7 @@
    <group id="Apple2">
     <text id="Text">
      <orig>Despite the advent of Macintosh (1984), modest Apple{{_}}II generated most of company’s income. It came with a monitor (probably because of short-lived regulations{{-}}consoles made lots of interference to nearby TV sets), but the monitor was connected using composite wire, like TV (composite input was rare those years).</orig>
-     <transl>尽管Macintosh（1984年）已经出现，但朴素的Apple{{_}}II仍是苹果公司的主要收入来源。它配备了显示器（可能是因为短暂的法规规定{{-}}控制台会对附近的电视机造成大量干扰），但显示器是通过复合线连接的，就像电视一样（那些年复合输入很少见）。</transl>
+     <transl>尽管Macintosh（1984年）已经出现，但朴素的Apple{{_}}II仍是苹果公司的主要收入来源。它配备了显示器（可能是因为短暂的法规规定——控制台会对附近的电视机造成大量干扰），但显示器是通过复合线连接的，就像电视一样（那些年复合输入很少见）。</transl>
     </text>
     <text id="Unenc">
      <orig>Apple logo</orig>
@@ -14425,7 +14424,7 @@
      <transl>
       <p>由Acorn 计算机s创建，作为第二款教育电脑（继BBC Micro之后）。它拥有不错的图形操作系统，但这款电脑针对多个细分市场却未能成功打入任何一个。低价和电视支持导致其采用了8位处理器和非方形像素，科学模型因内存不足而被取消。</p>
       <p />
-      <p>后来的型号配备了第二个Intel CPU，但与IBM的兼容性较差{{-}}尽管它可以运行一些重要的程序如''Turbo{{_}}C''，并且在增加内存扩展模块后甚至可以运行''WordPerfect''。</p>
+      <p>后来的型号配备了第二个Intel CPU，但与IBM的兼容性较差——尽管它可以运行一些重要的程序如''Turbo{{_}}C''，并且在增加内存扩展模块后甚至可以运行''WordPerfect''。</p>
      </transl>
     </text>
    </group>
@@ -14463,11 +14462,11 @@
       <p>Most modern general-purpose computers are descendants of IBM compatibles (DOS compatibility was finally broken in 2010s). Only portable and special-purpose systems use other architectures.</p>
      </orig>
      <transl>
-      <p>到20世纪80年代末，这台电脑已成为“事实上的”标准：它在1982年被克隆，新型号越来越强大，同时保持了与旧软件的兼容性。游戏最初很匮乏，但VGA（320×200，256色，1987年）和纯粹的CPU性能使得相当不错的游戏成为可能{{-}}而且，更重要的是，游戏多样化，不再受低内存或图形加速器功能的限制。</p>
+      <p>到20世纪80年代末，这台电脑已成为“事实上的”标准：它在1982年被克隆，新型号越来越强大，同时保持了与旧软件的兼容性。游戏最初很匮乏，但VGA（320×200，256色，1987年）和纯粹的CPU性能使得相当不错的游戏成为可能——而且，更重要的是，游戏多样化，不再受低内存或图形加速器功能的限制。</p>
       <p />
       <p>IBM的另一优势是出色的文本质量（在后续适配器中，每个单元格为9×16，共80×25个单元格）以及易于本地化（完全通过软件进行）。</p>
       <p />
-      <p>多年来，它一直运行着过时的DOS，直到Microsoft推出了Windows{{}}95。像Unix或Windows{{}}NT这样的早期操作系统很少见。</p>
+      <p>多年来，它一直运行着过时的DOS，直到Microsoft推出了Windows 95。像Unix或Windows NT这样的早期操作系统很少见。</p>
       <p />
       <p>大多数现代通用计算机都是IBM兼容机的后代（DOS兼容性最终在2010年代被打破）。只有便携式和专用系统使用其他架构。</p>
      </transl>
@@ -14528,7 +14527,7 @@
     </text>
     <text id="MemNote">
      <orig>(classic Motorola 68000, until 1994)</orig>
-     <transl>（经典的Motorola 68000，直到1994年）</transl>
+     <transl>（经典的摩托罗拉 68000，直到1994年）</transl>
     </text>
    </group>
    <group id="Minitel">
